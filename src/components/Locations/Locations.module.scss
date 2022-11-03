@@ -1,0 +1,52 @@
+.locationsPhotoBlock {
+    width: 100%;
+    margin-top: 5vw;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+}
+
+.locationsPcPhoto {
+    width: 100%;
+}
+
+.locationsMobPhoto {
+    display: none;
+    width: 100%;
+}
+
+.locationsText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12vw;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 210vw;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 760px) {
+    .locationsPcPhoto {
+        width: 120%;
+    }
+    .locationsText {
+        top: 252vw;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .locationsPcPhoto {
+        display: none;
+    }
+    .locationsMobPhoto {
+        display: block;
+    }
+    .locationsText {
+        top: 435vw;
+    }
+
+
+}
