@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/RayVSDudka-app/static/css/main.8030671c.css",
-    "main.js": "/RayVSDudka-app/static/js/main.e709ad34.js",
+    "main.css": "/RayVSDudka-app/static/css/main.cab5ba05.css",
+    "main.js": "/RayVSDudka-app/static/js/main.c7693cb2.js",
     "static/js/787.28cb0dcd.chunk.js": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/GoldenBallPc.jpg": "/RayVSDudka-app/static/media/GoldenBallPc.77943646bfb6ceb8a7fe.jpg",
     "static/media/GoldenBallMob.jpg": "/RayVSDudka-app/static/media/GoldenBallMob.7058599578bb0d13c68e.jpg",
-    "static/media/pc-photo.jpg": "/RayVSDudka-app/static/media/pc-photo.c5304a08ce52a00ec495.jpg",
+    "static/media/pc-photo.jpg": "/RayVSDudka-app/static/media/pc-photo.1726e33effa19a84c17f.jpg",
     "static/media/photo_2022-05-29_02-10-22.jpg": "/RayVSDudka-app/static/media/photo_2022-05-29_02-10-22.b041025b18e4c9d61444.jpg",
     "static/media/photo_2022-05-29_02-10-22(Mob).jpg": "/RayVSDudka-app/static/media/photo_2022-05-29_02-10-22(Mob).5509aa037bc16e6136ed.jpg",
     "static/media/mobile-photo.jpg": "/RayVSDudka-app/static/media/mobile-photo.4ed1bf092d29b4c89942.jpg",
     "static/media/photo_2022-11-03_14-19-05.jpg": "/RayVSDudka-app/static/media/photo_2022-11-03_14-19-05.51a45c009bace965eb01.jpg",
     "static/media/results-mob-photo.jpg": "/RayVSDudka-app/static/media/results-mob-photo.e9541730fa3bbced0951.jpg",
     "index.html": "/RayVSDudka-app/index.html",
-    "main.8030671c.css.map": "/RayVSDudka-app/static/css/main.8030671c.css.map",
-    "main.e709ad34.js.map": "/RayVSDudka-app/static/js/main.e709ad34.js.map",
+    "main.cab5ba05.css.map": "/RayVSDudka-app/static/css/main.cab5ba05.css.map",
+    "main.c7693cb2.js.map": "/RayVSDudka-app/static/js/main.c7693cb2.js.map",
     "787.28cb0dcd.chunk.js.map": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8030671c.css",
-    "static/js/main.e709ad34.js"
+    "static/css/main.cab5ba05.css",
+    "static/js/main.c7693cb2.js"
   ]
 }
