@@ -1,6 +1,6 @@
 import React from 'react'
-import pcPhoto from '../../assets/img/pc-photo.jpg'
-import mobilePhoto from '../../assets/img/mobile-photo.jpg'
+import pcPhoto from '../../../assets/img/pc-photo.jpg'
+import mobilePhoto from '../../../assets/img/mobile-photo.jpg'
 import styles from '../MainPhoto/MainPhoto.module.scss'
 
 function MainPhoto() {

@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pcMenu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1vw 4vw;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .PClinks {
+        display: flex;
+        list-style-type: none;
+        padding-right: 2vw;
+        border-right: 1px solid #222;
+    }
+
+    .PClinks a {
+        display: block;
+        font-size: 1.3vw;
+        color: rgb(0, 0, 0);
+        padding: 0 1.2vw;
+        text-decoration: none;
+    }
+
+    .PClinks a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding-left: 2vw;
+
+    >button {
+        font-size: 1.4vw;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        border: 1px solid rgb(117, 117, 117);
+        padding: 0.6vw;
+    }
+
+    >button:hover {
+        background-color: rgb(233, 233, 233);
+    }
+
+    .login-button {
+        padding: 0.1vw 0.3vw;
+    }
+
+    .sign-up-button {
+        margin-left: 0.8vw;
+    }
+}
+
+/* ---------------- Navbar and burger menu ------------------ */
+.mobileMenu {
+    display: none;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 99;
+    // pointer-events: none;
+}
+
+nav {
+    width: 100%;
+    height: 8vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.burger-menu {
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 3.5em;
+    height: 0.7vw;
+    background-color: #000000;
+    border-radius: 0.5em;
+}
+
+.menu {
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition: ease-out 0.2s;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.menu a {
+    color: #000000;
+    margin-top: 3vw;
+    font-size: 4vw;
+    border-bottom: 1px solid #000;
+}
+
+.registrButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 18vw;
+    width: 100%;
+}
+
+.registrButtons a {
+    font-size: 3vw;
+    border: none;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    // display: none;
+    opacity: 0;
+    right: 100vw;
+}
+
+.visible {
+    // display: inherit;
+    opacity: 0.9;
+    transition: ease-out 0.2s;
+    right: 50vw;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.1vw, 2.1vw);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2) {
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(0vw, 2.4vw);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+@media only screen and (max-width: 760px) {
+    .main-photo-block img {
+        width: 120%;
+    }
+
+    .pcMenu {
+        display: none;
+    }
+
+    nav {
+        padding: 2vw;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
+
+    .burger-bar {
+        width: 7vw;
+        height: 0.7vw;
+    }
+
+    .registrButtons {
+        top: 24vw;
+    }
+
+    .registrButtons a {
+        font-size: 2vw;
+    }
+
+    .burger-bar.clicked:nth-child(1) {
+        transform: rotate(45deg) translate(0.1vw, 2.1vw);
+        transition: ease-out 0.5s;
+    }
+
+    .burger-bar.clicked:nth-child(3) {
+        transform: rotate(135deg) translate(0vw, 2.4vw);
+        transition: ease-out 0.5s;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pcMenu {
+        height: 12vw;
+    }
+
+    nav {
+        height: 14vw;
+        padding: 4vw;
+    }
+
+    .menu {
+        width: 90%;
+        padding-top: 20vw;
+        padding-left: 10vw;
+        padding-right: 15vw;
+    }
+
+    .menu a {
+        margin-top: 6vw;
+        font-size: 7vw;
+    }
+
+    .registrButtons {
+        top: 18vw;
+    }
+
+    .registrButtons a {
+        font-size: 3vw;
+    }
+
+    .visible {
+        right: 10vw;
+    }
+
+    .burger-bar.clicked:nth-child(1) {
+        transform: rotate(45deg) translate(2vw, 1.4vw);
+        transition: ease-out 0.5s;
+    }
+
+    .burger-bar.clicked:nth-child(3) {
+        transform: rotate(135deg) translate(-2vw, 1.9vw);
+        transition: ease-out 0.5s;
+    }
+}

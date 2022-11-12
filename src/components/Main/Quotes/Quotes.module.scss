@@ -1,0 +1,46 @@
+.quotesPhotoBlock {
+    width: 100%;
+    margin-top: 5vw;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+}
+
+.quotesPcPhoto {
+    width: 100%;
+}
+
+.quotesMobPhoto {
+    display: none;
+    width: 100%;
+}
+
+.quotesText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11vw;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 431vw;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 760px) {
+    .quotesText {
+        top: 511vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .quotesPcPhoto {
+        display: none;
+    }
+    .quotesMobPhoto {
+        display: block;
+    }
+    .quotesText {
+        font-size: 12vw;
+        top: 829vw;
+    }
+
+
+}

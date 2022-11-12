@@ -1,6 +1,6 @@
 import React from 'react'
-import resultsMobPhoto from '../../assets/img/results-mob-photo.jpg'
-import resultsPcPhoto from '../../assets/img/photo_2022-11-03_14-19-05.jpg'
+import resultsMobPhoto from '../../../assets/img/results-mob-photo.jpg'
+import resultsPcPhoto from '../../../assets/img/photo_2022-11-03_14-19-05.jpg'
 import styles from '../Results/Results.module.scss'
 
 

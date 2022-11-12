@@ -19,10 +19,10 @@
 
 .scheduleText {
     font-family: 'Raleway', sans-serif;
-    font-size: 12vw;
+    font-size: 11vw;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 53vw;
+    top: 66vw;
     text-transform: uppercase;
 }
 
@@ -31,7 +31,7 @@
         width: 120%;
     }
     .scheduleText {
-        top: 68vw;
+        top: 86vw;
     }
     
 
@@ -46,7 +46,8 @@
         display: block;
     }
     .scheduleText {
-        top: 190vw;
+        font-size: 12vw;
+        top: 207vw;
     }
 
 

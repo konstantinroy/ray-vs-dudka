@@ -41,20 +41,21 @@
     color: white;
     position: relative;
     right: 24vw;
-    top: 104vw;
+    top: 111vw;
 }
 
 .mainPhotoText-4 {
     color: rgb(0, 0, 0);
     position: relative;
     left: 24vw;
-    top: 97vw;
+    top: 104vw;
 }
 
 @media only screen and (max-width: 760px) {
     .main-photo-block {
         display: flex;
         justify-content: center;
+        padding-top: 8vw;
     }
     
     .main-photo-block img {
