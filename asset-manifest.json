@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RayVSDudka-app/static/css/main.2c7cfd24.css",
-    "main.js": "/RayVSDudka-app/static/js/main.d16bf86f.js",
+    "main.js": "/RayVSDudka-app/static/js/main.8a925efc.js",
     "static/js/787.28cb0dcd.chunk.js": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/GoldenBallPc.jpg": "/RayVSDudka-app/static/media/GoldenBallPc.77943646bfb6ceb8a7fe.jpg",
     "static/media/GoldenBallMob.jpg": "/RayVSDudka-app/static/media/GoldenBallMob.7058599578bb0d13c68e.jpg",
@@ -22,11 +22,11 @@
     "static/media/GooglePlayIcon.png": "/RayVSDudka-app/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/RayVSDudka-app/index.html",
     "main.2c7cfd24.css.map": "/RayVSDudka-app/static/css/main.2c7cfd24.css.map",
-    "main.d16bf86f.js.map": "/RayVSDudka-app/static/js/main.d16bf86f.js.map",
+    "main.8a925efc.js.map": "/RayVSDudka-app/static/js/main.8a925efc.js.map",
     "787.28cb0dcd.chunk.js.map": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c7cfd24.css",
-    "static/js/main.d16bf86f.js"
+    "static/js/main.8a925efc.js"
   ]
 }
