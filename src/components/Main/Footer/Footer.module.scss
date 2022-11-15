@@ -1,3 +1,8 @@
+.footerBlockStyles {
+  padding: 7vw 7vw 3vw 7vw;
+  background-color: #222;
+}
+
 .mainBlockPC {
   padding: 0vw;
   display: flex;
@@ -50,9 +55,7 @@
 }
 
 .mainBlockMOB {
-  display: flex;
-  flex-direction: column;
-  color: #fff;
+  display: none;
 }
 
 .mainBlockMOB h1 {
@@ -62,10 +65,6 @@
 
 .mainBlockMOB a {
   color: #fff;
-}
-
-.linksBlockMOB__box {
-  display: none;
 }
 
 .linksBlockMOB {
@@ -116,6 +115,11 @@
 @media only screen and (max-width: 480px) {
   .mainBlockPC {
     display: none;
+  }
+  .mainBlockMOB {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
   }
   .linksBlockMOB__box {
     display: block;
