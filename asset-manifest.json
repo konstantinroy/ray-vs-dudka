@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RayVSDudka-app/static/css/main.3e2962bc.css",
-    "main.js": "/RayVSDudka-app/static/js/main.c012215b.js",
+    "main.css": "/RayVSDudka-app/static/css/main.2c7cfd24.css",
+    "main.js": "/RayVSDudka-app/static/js/main.47766ecb.js",
     "static/js/787.28cb0dcd.chunk.js": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/GoldenBallPc.jpg": "/RayVSDudka-app/static/media/GoldenBallPc.77943646bfb6ceb8a7fe.jpg",
     "static/media/GoldenBallMob.jpg": "/RayVSDudka-app/static/media/GoldenBallMob.7058599578bb0d13c68e.jpg",
@@ -10,6 +10,7 @@
     "static/media/AudioPcPhoto.jpg": "/RayVSDudka-app/static/media/AudioPcPhoto.6048d0c1d545d5334fce.jpg",
     "static/media/PhotosMobPhoto.jpg": "/RayVSDudka-app/static/media/PhotosMobPhoto.5457952942e37d242749.jpg",
     "static/media/photo_2022-05-29_02-10-22.jpg": "/RayVSDudka-app/static/media/photo_2022-05-29_02-10-22.b041025b18e4c9d61444.jpg",
+    "static/media/ShedulePage-photo.jpg": "/RayVSDudka-app/static/media/ShedulePage-photo.2c666a39b1631b32cd31.jpg",
     "static/media/photo_2022-05-29_02-10-22(Mob).jpg": "/RayVSDudka-app/static/media/photo_2022-05-29_02-10-22(Mob).5509aa037bc16e6136ed.jpg",
     "static/media/PhotosPcPhoto.jpg": "/RayVSDudka-app/static/media/PhotosPcPhoto.fca936484a6c246db74b.jpg",
     "static/media/mobile-photo.jpg": "/RayVSDudka-app/static/media/mobile-photo.4ed1bf092d29b4c89942.jpg",
@@ -20,12 +21,12 @@
     "static/media/AppStoreIcon.png": "/RayVSDudka-app/static/media/AppStoreIcon.7163773c87d21d6a510c.png",
     "static/media/GooglePlayIcon.png": "/RayVSDudka-app/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/RayVSDudka-app/index.html",
-    "main.3e2962bc.css.map": "/RayVSDudka-app/static/css/main.3e2962bc.css.map",
-    "main.c012215b.js.map": "/RayVSDudka-app/static/js/main.c012215b.js.map",
+    "main.2c7cfd24.css.map": "/RayVSDudka-app/static/css/main.2c7cfd24.css.map",
+    "main.47766ecb.js.map": "/RayVSDudka-app/static/js/main.47766ecb.js.map",
     "787.28cb0dcd.chunk.js.map": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e2962bc.css",
-    "static/js/main.c012215b.js"
+    "static/css/main.2c7cfd24.css",
+    "static/js/main.47766ecb.js"
   ]
 }
