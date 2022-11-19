@@ -29,7 +29,7 @@ const Navbar = () => {
           <ul className="PClinks">
             <a href="/shedule">Расписание</a>
             <a href="/shedule">Результаты</a>
-            <a href="/">Места проведения</a>
+            <a href="/locations">Места проведения</a>
             <a href="/">Аудио</a>
             <a href="/">Фоточки</a>
             <a href="/">Цитаты</a>
@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className={menu_class}>
           <a href="/shedule">Расписание</a>
           <a href="/shedule">Результаты</a>
-          <a href="/">Места проведения</a>
+          <a href="/locations">Места проведения</a>
           <a href="/">Аудио</a>
           <a href="/">Фоточки</a>
           <a href="/">Цитаты</a>

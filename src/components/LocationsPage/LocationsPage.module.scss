@@ -1,0 +1,61 @@
+.content {
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .heading {
+    font-size: 4vw;
+    font-weight: 900;
+    margin: 0;
+    width: 55%;
+    color: #fff;
+  }
+  
+  .pagePhotoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .locationsPageHeading {
+    text-align: center;
+    padding: 0;
+  }
+
+  .locationsPageHeading img {
+    width: 100%;
+  }
+  
+  .headingText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 0 4vw;
+  }
+
+  .locationInfoBlock {
+    width: 100%;
+    height: 500px;
+    background-color: #d9d9d9;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 2vw 0;
+  }
+
+  .locationInfoBlock h1 {
+    font-size: 2vw;
+  }
+
+  .locationPhotoBlock {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .locationPhotoBlock img {
+    width: 66%;
+  }

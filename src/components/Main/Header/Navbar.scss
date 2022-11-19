@@ -16,7 +16,7 @@
     }
 
     .logo__block a {
-        color: #000;
+        color: rgb(255, 255, 255);
         z-index: 1000;
         cursor: pointer;
     }
@@ -32,13 +32,13 @@
         display: flex;
         list-style-type: none;
         padding-right: 2vw;
-        border-right: 1px solid #222;
+        border-right: 1px solid rgb(255, 255, 255);
     }
 
     .PClinks a {
         display: block;
         font-size: 1.3vw;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         padding: 0 1.2vw;
         text-decoration: none;
     }
@@ -68,15 +68,17 @@
     }
 
     >button:hover {
-        background-color: rgb(233, 233, 233);
+        background-color: rgb(49, 49, 49);
     }
 
     .login-button {
         padding: 0.1vw 0.3vw;
+        color: #fff;
     }
 
     .sign-up-button {
         margin-left: 0.8vw;
+        color: #fff;
     }
 }
 
@@ -93,11 +95,12 @@
 nav {
     width: 100%;
     height: 8vw;
-    background-color: #ffffff;
+    background-color: #000000;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 1em;
+    border-bottom: 1px solid #a1a1a1;
 }
 
 .burger-menu {
@@ -113,14 +116,14 @@ nav {
 .burger-bar {
     width: 7vw;
     height: 0.7vw;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 0.5em;
 }
 
 .menu {
     width: 50%;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #000000;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -133,10 +136,10 @@ nav {
 }
 
 .menu a {
-    color: #000000;
+    color: #ffffff;
     margin-top: 3vw;
     font-size: 4vw;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .registrButtons {
@@ -199,7 +202,7 @@ nav {
         margin-left: 2vw;
     }
     .logo__block a {
-        color: #000;
+        color: rgb(255, 255, 255);
     }
     .main-photo-block img {
         width: 120%;
@@ -257,7 +260,7 @@ nav {
     }
 
     .logo__block a {
-        color: #000;
+        color: rgb(255, 255, 255);
     }
 
     .burger-menu {

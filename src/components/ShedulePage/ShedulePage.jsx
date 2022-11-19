@@ -10,12 +10,14 @@ function ShedulePage() {
   const [buttonText3, setButtonText3] = React.useState("ᐯ");
   const [buttonText4, setButtonText4] = React.useState("ᐯ");
   const [buttonText5, setButtonText5] = React.useState("ᐯ");
+  const [buttonText6, setButtonText6] = React.useState("ᐯ");
 
   const [isArrowClicked1, setIsArrowClicked1] = useState(false);
   const [isArrowClicked2, setIsArrowClicked2] = useState(false);
   const [isArrowClicked3, setIsArrowClicked3] = useState(false);
   const [isArrowClicked4, setIsArrowClicked4] = useState(false);
   const [isArrowClicked5, setIsArrowClicked5] = useState(false);
+  const [isArrowClicked6, setIsArrowClicked6] = useState(false);
 
   const onButtonClick1 = () => (
     !isArrowClicked1 ? setButtonText1("ᐱ") : setButtonText1("ᐯ"),
@@ -36,6 +38,10 @@ function ShedulePage() {
   const onButtonClick5 = () => (
     !isArrowClicked5 ? setButtonText5("ᐱ") : setButtonText5("ᐯ"),
     setIsArrowClicked5(!isArrowClicked5)
+  );
+  const onButtonClick6 = () => (
+    !isArrowClicked6 ? setButtonText6("ᐱ") : setButtonText6("ᐯ"),
+    setIsArrowClicked6(!isArrowClicked6)
   );
 
   return (
@@ -294,9 +300,9 @@ function ShedulePage() {
               <li>МЮ 2-3 МС</li>
               <li>Атлетико 2-2 МЮ (ничья)</li>
               <li>Наполи 1-5 Реал</li>
-              <li>Тоттенхэм 1-2 Барселона (ничья)</li>
+              <li>Тоттенхэм 1-2 Барселона</li>
               <li>Реал 1-1 Бавария (ничья)</li>
-              <li>Бавария 3-2 Челси (ничья)</li>
+              <li>Бавария 3-2 Челси</li>
               <li>Реал 0-4 ПСЖ</li>
               <li>МЮ 3-1 Ливерпуль</li>
               <li>Милан 2-2 Арсенал (ничья)</li>
@@ -312,6 +318,65 @@ function ShedulePage() {
               }}
             >
               {buttonText5}
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.matchDayBlock}>
+          <h2
+          className={styles.dateText}
+          >9 ноября (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          <h1
+          className={styles.matchScoreText}
+          >Дудка 5-11 Рай</h1>
+          <div className={styles.resultList}>
+            <h3
+            className={styles.viewResults}
+              style={{
+                maxHeight: !isArrowClicked6 ? "35vw" : "0",
+                overflow: !isArrowClicked6 ? "visible" : "hidden",
+                transition: !isArrowClicked6 ? "0.2s" : "0s",
+              }}
+            >
+              Посмотреть результаты матчей
+            </h3>
+            <uL
+              style={{
+                maxHeight: !isArrowClicked6 ? "0" : "170vw",
+                overflow: !isArrowClicked6 ? "hidden" : "visible",
+                transition: !isArrowClicked6 ? "0.7s" : "0.6s",
+              }}
+            >
+              <li>Бавария 2-4 ПСЖ</li>
+              <li>МЮ 1-2 Реал</li>
+              <li>Реал 3-1 МЮ</li>
+              <li>Ювентус 1-1 МС (ничья)</li>
+              <li>Бавария 0-8 Бавария</li>
+              <li>Португалия 1-1 Франция (ничья)</li>
+              <li>Атлетико 2-3 Ливерпуль</li>
+              <li>Реал 2-3 Тоттенхэм</li>
+              <li>Интер 3-2 Лестер</li>
+              <li>ПСЖ 3-1 Ювентус</li>
+              <li>Реал 1-1 Бавария (ничья)</li>
+              <li>Реал 3-3 Бавария (ничья)</li>
+              <li>МЮ 2-3 ПСЖ</li>
+              <li>Челси 5-2 Ливерпуль</li>
+              <li>Милан 3-5 МС</li>
+              <li>Бельгия 3-5 Португалия</li>
+              <li>ПСЖ 0-3 МЮ</li>
+              <li>Бавария 0-4 Тоттенхэм</li>
+              <li>Челси 3-2 Арсенал</li>
+              <li>Реал 3-4 ПСЖ</li>
+              <h3 
+              className={styles.goalsQuotes}>Счёт голов: 41-60</h3>
+            </uL>
+            <button
+              onClick={onButtonClick6}
+              style={{
+                marginTop: !isArrowClicked6 ? "0" : "2vw",
+              }}
+            >
+              {buttonText6}
             </button>
           </div>
         </div>
