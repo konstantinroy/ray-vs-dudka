@@ -8,7 +8,7 @@ function Locations() {
         <a href='/locations'><div className={styles.locationsPhotoBlock} >
             <img className={styles.locationsPcPhoto} src={locationsPcPhoto} alt='' ></img>
             <img className={styles.locationsMobPhoto} src={locationsMobPhoto} alt='' ></img>
-            <p className={styles.locationsText}>Места проведения каток</p>
+            {/* <p className={styles.locationsText}>Места проведения каток</p> */}
         </div></a>
     )
 }

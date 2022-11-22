@@ -30,13 +30,13 @@ const Navbar = () => {
             <a href="/shedule">Расписание</a>
             <a href="/shedule">Результаты</a>
             <a href="/locations">Места проведения</a>
-            <a href="/">Аудио</a>
+            <a href="/audio">Аудио</a>
             <a href="/">Фоточки</a>
             <a href="/">Цитаты</a>
           </ul>
           <div className="buttons">
-            <button className="login-button">LOGIN</button>
-            <button className="sign-up-button">SIGN UP</button>
+            <button className="login-button">ВХОД</button>
+            <button className="sign-up-button">РЕГИСТРАЦИЯ</button>
           </div>
         </div>
       </div>
@@ -54,12 +54,12 @@ const Navbar = () => {
           <a href="/shedule">Расписание</a>
           <a href="/shedule">Результаты</a>
           <a href="/locations">Места проведения</a>
-          <a href="/">Аудио</a>
+          <a href="/audio">Аудио</a>
           <a href="/">Фоточки</a>
           <a href="/">Цитаты</a>
           <div className="registrButtons">
-            <a href="/">LOGIN</a>
-            <a href="/">SIGN UP</a>
+            <a href="/">ВХОД</a>
+            <a href="/">РЕГИСТРАЦИЯ</a>
           </div>
         </div>
       </div>

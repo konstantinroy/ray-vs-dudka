@@ -8,7 +8,7 @@ function Photos() {
         <a href='/'><div className={styles.photosPhotoBlock}>
             <img className={styles.photosPcPhoto} src={photosPcPhoto} alt='' ></img>
             <img className={styles.photosMobPhoto} src={photosMobPhoto} alt='' ></img>
-            <p className={styles.photosText}>Лучшие фоточки за всё время</p>
+            {/* <p className={styles.photosText}>Лучшие фоточки за всё время</p> */}
         </div></a>
     )
 }

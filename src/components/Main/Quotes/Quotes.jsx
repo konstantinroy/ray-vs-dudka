@@ -8,7 +8,7 @@ function Quotes() {
         <a href='/'><div className={styles.quotesPhotoBlock}>
             <img className={styles.quotesPcPhoto} src={quotesPcPhoto} alt='' ></img>
             <img className={styles.quotesMobPhoto} src={quotesMobPhoto} alt='' ></img>
-            <p className={styles.quotesText}>Лучшие цитаты Рая и Дудки</p>
+            {/* <p className={styles.quotesText}>Лучшие цитаты Рая и Дудки</p> */}
         </div></a>
     )
 }

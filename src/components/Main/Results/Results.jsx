@@ -9,7 +9,7 @@ function Results() {
         <a href='/shedule'><div className={styles.resultPhotoBlock} >
             <img className={styles.resultsPcPhoto} src={resultsPcPhoto} alt='' ></img>
             <img className={styles.resultsMobPhoto} src={resultsMobPhoto} alt='' ></img>
-            <p className={styles.resultsText}>Результаты всех матчей сезона</p>
+            {/* <p className={styles.resultsText}>Результаты всех матчей сезона</p> */}
         </div></a>
     )
 }

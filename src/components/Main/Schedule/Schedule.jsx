@@ -8,7 +8,7 @@ function Schedule() {
         <a href='/shedule'><div className={styles.schedulePhotoBlock} >
             <img className={styles.schedulePcPhoto} src={schedulePcPhoto} alt='' ></img>
             <img className={styles.scheduleMobPhoto} src={scheduleMobPhoto} alt='' ></img>
-            <p className={styles.scheduleText}>Расписание ближайших каток</p>
+            {/* <p className={styles.scheduleText}>Расписание ближайших каток</p> */}
         </div></a>
     )
 }

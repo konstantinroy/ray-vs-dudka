@@ -1,7 +1,6 @@
 .audioPhotoBlock {
     width: 100%;
     margin-top: 5vw;
-    background: rgb(0, 0, 0);
     text-align: center;
     overflow: hidden;
     display: flex;
@@ -10,13 +9,11 @@
 
 .audioPcPhoto {
     width: 100%;
-    opacity: 0.5;
 }
 
 .audioMobPhoto {
     display: none;
     width: 100%;
-    opacity: 0.5;
 }
 
 .audioText {
@@ -25,34 +22,23 @@
     font-weight: 900;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 302vw;
+    top: 298vw;
     text-transform: uppercase;
     width: 78%;
 }
 
 @media only screen and (max-width: 760px) {
-    .audioPcPhoto {
-        width: 120%;
-    }
-    .audioText {
-        top: 363vw;
-    }
     
-
-
 }
 
 @media only screen and (max-width: 480px) {
+    .audioPhotoBlock {
+        margin-top: 10vw;
+    }
     .audioPcPhoto {
         display: none;
     }
     .audioMobPhoto {
         display: block;
     }
-    .audioText {
-        font-size: 12vw;
-        top: 598vw;
-    }
-
-
 }

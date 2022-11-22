@@ -1,20 +1,17 @@
 .schedulePhotoBlock {
     width: 100%;
     margin-top: 5vw;
-    background: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
 }
 
 .schedulePcPhoto {
     width: 100%;
-    opacity: 0.7;
 }
 
 .scheduleMobPhoto {
     display: none;
     width: 100%;
-    opacity: 0.7;
 }
 
 .scheduleText {
@@ -27,28 +24,17 @@
 }
 
 @media only screen and (max-width: 760px) {
-    .schedulePcPhoto {
-        width: 120%;
-    }
-    .scheduleText {
-        top: 86vw;
-    }
-    
-
 
 }
 
 @media only screen and (max-width: 480px) {
+    .schedulePhotoBlock {
+        margin-top: 10vw;
+    }
     .schedulePcPhoto {
         display: none;
     }
     .scheduleMobPhoto {
         display: block;
     }
-    .scheduleText {
-        font-size: 12vw;
-        top: 207vw;
-    }
-
-
 }

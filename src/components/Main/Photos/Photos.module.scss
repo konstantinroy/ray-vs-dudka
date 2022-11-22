@@ -1,7 +1,6 @@
 .photosPhotoBlock {
     width: 100%;
     margin-top: 5vw;
-    background: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
     display: flex;
@@ -10,13 +9,11 @@
 
 .photosPcPhoto {
     width: 100%;
-    opacity: 0.7;
 }
 
 .photosMobPhoto {
     display: none;
     width: 100%;
-    opacity: 0.7;
 }
 
 .photosText {
@@ -25,34 +22,23 @@
     font-weight: 900;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 369vw;
+    top: 362vw;
     text-transform: uppercase;
     width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
-    .photosPcPhoto {
-        width: 120%;
-    }
-    .photosText {
-        top: 443vw;
-    }
-    
-
 
 }
 
 @media only screen and (max-width: 480px) {
+    .photosPhotoBlock {
+        margin-top: 10vw;
+    }
     .photosPcPhoto {
         display: none;
     }
     .photosMobPhoto {
         display: block;
     }
-    .photosText {
-        font-size: 12vw;
-        top: 720vw;
-    }
-
-
 }

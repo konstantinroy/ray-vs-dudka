@@ -1,7 +1,6 @@
 .resultPhotoBlock {
     width: 100%;
     margin-top: 5vw;
-    background: #000;
     text-align: center;
     overflow: hidden;
     display: flex;
@@ -11,12 +10,10 @@
 
 .resultsPcPhoto {
     width: 100%;
-    opacity: 0.3;
 }
 
 .resultsMobPhoto {
     display: none;
-    opacity: 0.3;
 }
 
 
@@ -31,27 +28,18 @@
 }
 
 @media only screen and (max-width: 760px) {
-    .resultsText {
-        top: 178vw;
-    }
-    
-
 
 }
 
 @media only screen and (max-width: 480px) {
+    .resultPhotoBlock {
+        margin-top: 10vw;
+    }
     .resultsPcPhoto {
         display: none;
     }
     .resultsMobPhoto {
         display: block;
-        opacity: 0.3;
         width: 100%;
     }
-    .resultsText {
-        font-size: 12vw;
-        top: 330vw;
-    }
-
-
 }

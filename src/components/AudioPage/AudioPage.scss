@@ -1,0 +1,57 @@
+.content {
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #efefef;
+  }
+  
+  .heading {
+    font-size: 4vw;
+    font-weight: 900;
+    margin: 0;
+    width: 55%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .pagePhotoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .audioName {
+    font-size: 1.7vw;
+    margin: 0 0 0 2vw;
+    width: 50%;
+  }
+  
+  .audioHeading {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .audioHeading img {
+    width: 100%;
+  }
+  
+  .headingText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 0 4vw;
+  }
+  
+  .audioBlock {
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw 0;
+    margin-bottom: 2vw;
+    cursor: context-menu;
+  }
+
+  .audioBlock audio {
+    width: 50%;
+    margin-top: 1vw;
+  }

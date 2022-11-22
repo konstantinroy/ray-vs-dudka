@@ -1,7 +1,6 @@
 .quotesPhotoBlock {
     width: 100%;
     margin-top: 5vw;
-    background: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
 }
@@ -20,27 +19,22 @@
     font-size: 11vw;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 431vw;
+    top: 425vw;
     text-transform: uppercase;
 }
 
 @media only screen and (max-width: 760px) {
-    .quotesText {
-        top: 511vw;
-    }
+    
 }
 
 @media only screen and (max-width: 480px) {
+    .quotesPhotoBlock {
+        margin-top: 10vw;
+    }
     .quotesPcPhoto {
         display: none;
     }
     .quotesMobPhoto {
         display: block;
     }
-    .quotesText {
-        font-size: 12vw;
-        top: 829vw;
-    }
-
-
 }

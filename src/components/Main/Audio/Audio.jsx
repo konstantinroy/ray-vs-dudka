@@ -5,12 +5,12 @@ import styles from '../Audio/Audio.module.scss'
 
 function Audio() {
     return (
-        <a href='/'><div className={styles.audioPhotoBlock}>
+        <a href='/audio'><div className={styles.audioPhotoBlock}>
             <img className={styles.audioPcPhoto} src={audioPcPhoto} alt='' ></img>
             <img className={styles.audioMobPhoto} src={audioMobPhoto} alt='' ></img>
-            <p className={styles.audioText}>Все аудио 
+            {/* <p className={styles.audioText}>Все аудио 
             в одном 
-            месте</p>
+            месте</p> */}
         </div></a>
     )
 }
