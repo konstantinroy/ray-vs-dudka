@@ -1,57 +1,119 @@
 .content {
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    background-color: #efefef;
-  }
-  
-  .heading {
-    font-size: 4vw;
-    font-weight: 900;
-    margin: 0;
-    width: 55%;
-    color: rgb(0, 0, 0);
-  }
-  
-  .pagePhotoBlock {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .audioName {
-    font-size: 1.7vw;
-    margin: 0 0 0 2vw;
-    width: 50%;
-  }
-  
-  .audioHeading {
-    text-align: center;
-    padding: 0;
-  }
-  
-  .audioHeading img {
-    width: 100%;
-  }
-  
-  .headingText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3vw 0 4vw;
-  }
-  
-  .audioBlock {
-    background-color: #d9d9d9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2vw 0;
-    margin-bottom: 2vw;
-    cursor: context-menu;
-  }
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #efefef;
+}
 
-  .audioBlock audio {
-    width: 50%;
-    margin-top: 1vw;
+.heading {
+  font-size: 4vw;
+  font-weight: 900;
+  margin: 0;
+  width: 55%;
+  color: rgb(0, 0, 0);
+}
+
+.pagePhotoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audioName {
+  font-size: 1.7vw;
+  margin: 0 0 0 2vw;
+  width: 50%;
+}
+
+.audioHeading {
+  text-align: center;
+  padding: 0;
+}
+
+.audioHeading img {
+  width: 100%;
+}
+
+.headingText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vw 0;
+}
+
+.audioBlock {
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2vw 0;
+  margin-bottom: 2vw;
+  cursor: context-menu;
+}
+
+.audioBlock audio {
+  width: 50%;
+  height: 4.5vw;
+  margin-top: 1vw;
+}
+
+@media only screen and (max-width: 760px) {
+  .pagePhotoBlock {
+    padding-top: 8vw;
+    overflow: hidden;
   }
+  .audioHeading img {
+    width: 150%;
+    margin-left: 20vw;
+  }
+  .headingText {
+    padding: 5vw 0;
+  }
+  .audioBlock {
+    padding: 3vw 0;
+  }
+  .audioName {
+    width: 59%;
+    font-size: 2.5vw;
+    margin: 0vw 0vw 0vw 1vw;
+  }
+  .audioBlock audio {
+    width: 60%;
+    height: 5.5vw;
+    margin-top: 2vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .pagePhotoBlock {
+    padding-top: 14vw;
+  }
+  .audioHeading img {
+    width: 200%;
+    margin-left: 30vw;
+  }
+  .headingText {
+    padding: 10vw 0;
+  }
+  .heading {
+    font-size: 6vw;
+    width: 80%;
+  }
+  .audioBlock {
+    padding: 5vw 0 7vw;
+    margin-bottom: 4vw;
+  }
+  .audioName {
+    width: 90%;
+    font-size: 4vw;
+    margin: 0 0 0 3vw;
+  }
+  .audioBlock audio {
+    width: 90%;
+    height: 9.5vw;
+    margin-top: 2.5vw;
+  }
+  .footer {
+    margin-top: 10vw;
+  }
+}
