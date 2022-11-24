@@ -8,7 +8,7 @@
   font-size: 4vw;
   font-weight: 900;
   margin: 0;
-  width: 55%;
+  width: 45%;
   color: rgb(0, 0, 0);
 }
 
@@ -18,18 +18,44 @@
   justify-content: center;
 }
 
-.audioName {
+.allPhoto-box {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 90%;
+}
+
+.allPhoto-box {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.photo-box {
+    height: 45vw;
+    // width: 50%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 1vw;
+}
+
+.photo-box img {
+  border-style: none;
+}
+
+.photoDescription {
   font-size: 1.7vw;
   margin: 0 0 0 2vw;
   width: 50%;
 }
 
-.audioHeading {
+.photoHeading {
   text-align: center;
   padding: 0;
 }
 
-.audioHeading img {
+.photoHeading img {
   width: 100%;
 }
 
@@ -40,21 +66,21 @@
   padding: 4vw 0;
 }
 
-.audioBlock {
+.photoBlock {
   background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 2vw 0;
-  margin-bottom: 2vw;
+  margin-bottom: 5vw;
   cursor: context-menu;
 }
-
-.audioBlock audio {
-  width: 50%;
-  height: 4.5vw;
-  margin-top: 1vw;
+.oneImg {
+  width: 45%;
+}
+.oneImg2 {
+  width: 75%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -62,25 +88,16 @@
     padding-top: 8vw;
     overflow: hidden;
   }
-  .audioHeading img {
+  .photoHeading img {
     width: 150%;
     margin-left: 20vw;
   }
   .headingText {
     padding: 5vw 0;
   }
-  .audioBlock {
-    padding: 3vw 0;
-  }
-  .audioName {
-    width: 59%;
-    font-size: 2.5vw;
-    margin: 0vw 0vw 0vw 1vw;
-  }
-  .audioBlock audio {
-    width: 60%;
-    height: 5.5vw;
-    margin-top: 2vw;
+  .photoBlock {
+    padding: 5vw 0;
+    margin-bottom: 7vw;
   }
 }
 
@@ -88,32 +105,35 @@
   .pagePhotoBlock {
     padding-top: 14vw;
   }
-  .audioHeading img {
+  .photoHeading img {
     width: 200%;
-    margin-left: 20vw;
+    margin-left: 40vw;
   }
   .headingText {
     padding: 10vw 0;
   }
   .heading {
     font-size: 6vw;
-    width: 80%;
+    width: 55%;
   }
-  .audioBlock {
-    padding: 5vw 0 7vw;
-    margin-bottom: 4vw;
-  }
-  .audioName {
-    width: 90%;
-    font-size: 4vw;
-    margin: 0 0 0 3vw;
-  }
-  .audioBlock audio {
-    width: 90%;
-    height: 9.5vw;
-    margin-top: 2.5vw;
-  }
-  .footer {
-    margin-top: 10vw;
-  }
+  .allPhoto-box {
+    display: block;
+    width: 100%;
+}
+.photo-box {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 2vw 0vw;
+}
+.photo-box img {
+  width: 100%;
+}
+.oneImg {
+  width: 100%;
+}
+.oneImg2 {
+  width: 100%;
+}
 }

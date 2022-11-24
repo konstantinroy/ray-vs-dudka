@@ -38,6 +38,13 @@ import Thirtytwo from "../../assets/audio/32. Каким будет день, к
 import Thirtythree from "../../assets/audio/33. Дуда сообщает Марку о результате катки.mp3";
 
 function AudioPage() {
+  document.addEventListener('play', (event) => {
+    const audios = [...document.getElementsByTagName('audio')];
+    
+    audios.forEach((audio) => audio !== event.target && audio.pause());
+  }, true);
+
+
   return (
     <div>
       <Navbar />
