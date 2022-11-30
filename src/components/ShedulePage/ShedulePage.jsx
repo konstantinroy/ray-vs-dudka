@@ -11,6 +11,7 @@ function ShedulePage() {
   const [buttonText4, setButtonText4] = React.useState("ᐯ");
   const [buttonText5, setButtonText5] = React.useState("ᐯ");
   const [buttonText6, setButtonText6] = React.useState("ᐯ");
+  const [buttonText7, setButtonText7] = React.useState("ᐯ");
 
   const [isArrowClicked1, setIsArrowClicked1] = useState(false);
   const [isArrowClicked2, setIsArrowClicked2] = useState(false);
@@ -18,6 +19,7 @@ function ShedulePage() {
   const [isArrowClicked4, setIsArrowClicked4] = useState(false);
   const [isArrowClicked5, setIsArrowClicked5] = useState(false);
   const [isArrowClicked6, setIsArrowClicked6] = useState(false);
+  const [isArrowClicked7, setIsArrowClicked7] = useState(false);
 
   const onButtonClick1 = () => (
     !isArrowClicked1 ? setButtonText1("ᐱ") : setButtonText1("ᐯ"),
@@ -43,6 +45,10 @@ function ShedulePage() {
     !isArrowClicked6 ? setButtonText6("ᐱ") : setButtonText6("ᐯ"),
     setIsArrowClicked6(!isArrowClicked6)
   );
+  const onButtonClick7 = () => (
+    !isArrowClicked7 ? setButtonText7("ᐱ") : setButtonText7("ᐯ"),
+    setIsArrowClicked7(!isArrowClicked7)
+  );
 
   return (
     <div>
@@ -65,7 +71,7 @@ function ShedulePage() {
         <div className={styles.matchDayBlock}>
           <h2 
           className={styles.dateText}
-          >25-ое февраля (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          >25-ое февраля (1 ТУР)</h2>
           <h1
           className={styles.matchScoreText}
           >Дудка 3-6 Рай</h1>
@@ -114,7 +120,7 @@ function ShedulePage() {
         <div className={styles.matchDayBlock}>
           <h2
           className={styles.dateText}
-          >12 марта (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          >12 марта (2 ТУР)</h2>
           <h1
           className={styles.matchScoreText}
           >Дудка 3-1 Рай</h1>
@@ -160,7 +166,7 @@ function ShedulePage() {
         <div className={styles.matchDayBlock}>
           <h2
           className={styles.dateText}
-          >10 апреля (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          >10 апреля (3 ТУР)</h2>
           <h1
           className={styles.matchScoreText}
           >Дудка 3-4 Рай</h1>
@@ -206,7 +212,7 @@ function ShedulePage() {
         <div className={styles.matchDayBlock}>
           <h2
           className={styles.dateText}
-          >20 мая (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          >20 мая (4 ТУР)</h2>
           <h1
           className={styles.matchScoreText}
           >Дудка 2-2 Рай</h1>
@@ -273,7 +279,7 @@ function ShedulePage() {
         <div className={styles.matchDayBlock}>
           <h2
           className={styles.dateText}
-          >9 ноября (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          >9 ноября (5 ТУР)</h2>
           <h1
           className={styles.matchScoreText}
           >Дудка 3-4 Рай</h1>
@@ -325,7 +331,7 @@ function ShedulePage() {
         <div className={styles.matchDayBlock}>
           <h2
           className={styles.dateText}
-          >9 ноября (ОФИЦИАЛЬНАЯ КАТКА)</h2>
+          >16 ноября (6 ТУР)</h2>
           <h1
           className={styles.matchScoreText}
           >Дудка 5-11 Рай</h1>
@@ -377,6 +383,58 @@ function ShedulePage() {
               }}
             >
               {buttonText6}
+            </button>
+          </div>
+        </div>
+
+        <div className={styles.matchDayBlock}>
+          <h2
+          className={styles.dateText}
+          >29 ноября (7 ТУР)</h2>
+          <h1
+          className={styles.matchScoreText}
+          >Дудка 3-6 Рай</h1>
+          <div className={styles.resultList}>
+            <h3
+            className={styles.viewResults}
+              style={{
+                maxHeight: !isArrowClicked7 ? "35vw" : "0",
+                overflow: !isArrowClicked7 ? "visible" : "hidden",
+                transition: !isArrowClicked7 ? "0.2s" : "0s",
+              }}
+            >
+              Посмотреть результаты матчей
+            </h3>
+            <uL
+              style={{
+                maxHeight: !isArrowClicked7 ? "0" : "170vw",
+                overflow: !isArrowClicked7 ? "hidden" : "visible",
+                transition: !isArrowClicked7 ? "0.7s" : "0.6s",
+              }}
+            >
+              <li>Реал 5-3 ПСЖ</li>
+              <li>Челси 3-3 МС (ничья)</li>
+              <li>Ювентус 1-3 Бавария</li>
+              <li>МЮ 2-1 Барселона</li>
+              <li>Бавария 1-1 Реал (ничья)</li>
+              <li>ПСЖ 2-1 МЮ</li>
+              <li>Милан 0-2 Ливерпуль</li>
+              <li>Атлетико 4-4 Тоттенхэм (ничья)</li>
+              <li>Испания 1-2 Франция</li>
+              <li>Интер 2-3 Арсенал</li>
+              <li>Ливерпуль 1-4 Атлетико</li>
+              <li>Наполи 2-2 Интер (ничья)</li>
+              <li>Реал 2-6 ПСЖ</li>
+              <h3 
+              className={styles.goalsQuotes}>Счёт голов: 26-35</h3>
+            </uL>
+            <button
+              onClick={onButtonClick7}
+              style={{
+                marginTop: !isArrowClicked7 ? "0" : "2vw",
+              }}
+            >
+              {buttonText7}
             </button>
           </div>
         </div>

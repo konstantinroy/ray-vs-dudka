@@ -4,16 +4,21 @@ import Footer from "../Main/Footer/Footer";
 import styles from "./LocationsPage.module.scss";
 import Carousel from "nuka-carousel/lib/carousel";
 import LocationsPagePhoto from "../../assets/img/LocationsPagePhoto.jpg";
-import DudaHomePhoto1 from "../../assets/img/photo_2022-11-24_19-26-02 (2).jpg";
-import DudaHomePhoto2 from "../../assets/img/photo_2022-11-24_19-26-02.jpg";
-import DudaHomePhoto3 from "../../assets/img/photo_2022-05-29_02-10-26.jpg";
-import ParentsDudaHomePhoto from "../../assets/img/2_T3kVuwYc8.jpg";
-import SyberXPhoto1 from "../../assets/img/L.jpg";
-import SyberXPhoto2 from "../../assets/img/L2.jpg";
-import SyberXPhoto3 from "../../assets/img/L3.jpg";
-import NintendoPhoto1 from "../../assets/img/N.jpg";
-import NintendoPhoto2 from "../../assets/img/N2.jpg";
-import NintendoPhoto3 from "../../assets/img/N3.jpg";
+import DudaHomePhoto1 from "./img/photo_2022-11-29_23-26-45.jpg";
+import DudaHomePhoto2 from "./img/photo_2022-11-29_23-26-52.jpg";
+import DudaHomePhoto3 from "./img/photo_2022-11-29_23-27-05.jpg";
+import DudaHomePhoto5 from "./img/photo_2022-11-29_23-27-18.jpg";
+import DudaHomePhoto6 from "./img/photo_2022-11-29_23-27-21.jpg";
+import DudaHomePhoto7 from "./img/photo_2022-11-29_23-27-25.jpg";
+import DudaHomePhoto8 from "./img/photo_2022-11-29_23-27-28.jpg";
+import DudaHomePhoto9 from "./img/photo_2022-11-29_23-27-31.jpg";
+import ParentsDudaHomePhoto from "./img/perents-home.jpg";
+import SyberXPhoto1 from "./img/S.jpg";
+import SyberXPhoto2 from "./img/S2.jpg";
+import SyberXPhoto3 from "./img/S3.jpg";
+import NintendoPhoto1 from "./img/N.jpg";
+import NintendoPhoto2 from "./img/N2.jpg";
+import NintendoPhoto3 from "./img/N3.jpg";
 
 function LocationsPage() {
   return (
@@ -40,6 +45,11 @@ function LocationsPage() {
               <img src={DudaHomePhoto1} alt="" />
               <img src={DudaHomePhoto2} alt="" />
               <img src={DudaHomePhoto3} alt="" />
+              <img src={DudaHomePhoto5} alt="" />
+              <img src={DudaHomePhoto6} alt="" />
+              <img src={DudaHomePhoto7} alt="" />
+              <img src={DudaHomePhoto8} alt="" />
+              <img src={DudaHomePhoto9} alt="" />
             </Carousel>
           </div>
         </div>
