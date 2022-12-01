@@ -5,7 +5,7 @@ import styles from '../Schedule/Schedule.module.scss'
 
 function Schedule() {
     return (
-        <a href='/shedule'><div className={styles.schedulePhotoBlock} >
+        <a href='/results'><div className={styles.schedulePhotoBlock} >
             <img className={styles.schedulePcPhoto} src={schedulePcPhoto} alt='' ></img>
             <img className={styles.scheduleMobPhoto} src={scheduleMobPhoto} alt='' ></img>
             {/* <p className={styles.scheduleText}>Расписание ближайших каток</p> */}

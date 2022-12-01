@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
-import styles from "./ShedulePage.module.scss";
-import ShedulePagePhoto from "../../assets/img/ShedulePage-photo.jpg";
+import styles from "./ResultsPage.module.scss";
+import ResultsPagePhoto from "../../assets/img/ResultsPage-photo.jpg";
 
-function ShedulePage() {
+function ResultsPage() {
   const [buttonText1, setButtonText1] = React.useState("ᐯ");
   const [buttonText2, setButtonText2] = React.useState("ᐯ");
   const [buttonText3, setButtonText3] = React.useState("ᐯ");
@@ -58,7 +58,7 @@ function ShedulePage() {
           <div className={styles.pagePhotoBlock}>
             <img
               className={styles.shedulePagePhoto}
-              src={ShedulePagePhoto}
+              src={ResultsPagePhoto}
               alt=""
             ></img>
           </div>
@@ -448,4 +448,5 @@ function ShedulePage() {
   );
 }
 
-export default ShedulePage;
+export default ResultsPage;
+

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "../src/components/Main/Main.jsx";
-import Shedule from "../src/components/ShedulePage/ShedulePage.jsx";
+import Results from "../src/components/ResultsPage/ResultsPage.jsx";
 import LocationsPage from "../src/components/LocationsPage/LocationsPage.jsx";
 import AudioPage from "../src/components/AudioPage/AudioPage.jsx";
 import PhotoPage from "../src/components/PhotosPage/PhotosPage.jsx";
@@ -12,7 +12,7 @@ const Links = () => {
         <Route path="/" element={<Main />} />
         <Route path="/main" element={<Main />} />
         <Route path="/RayVSDudka-app" element={<Main />} />
-        <Route path="/shedule" element={<Shedule />} />
+        <Route path="/results" element={<Results />} />
         <Route path="/locations" element={<LocationsPage />} />
         <Route path="/audio" element={<AudioPage />} />
         <Route path="/photo" element={<PhotoPage />} />

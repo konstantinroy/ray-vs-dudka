@@ -27,8 +27,7 @@ const Navbar = () => {
         </div>
         <div className="wrapper">
           <ul className="PClinks">
-            <a href="/shedule">Расписание</a>
-            <a href="/shedule">Результаты</a>
+            <a href="/results">Результаты</a>
             <a href="/locations">Места проведения</a>
             <a href="/audio">Аудио</a>
             <a href="/photo">Фоточки</a>
@@ -51,8 +50,7 @@ const Navbar = () => {
           <div className="logo__block"><a href="/main">RayVsDudka</a></div>
         </nav>
         <div className={menu_class}>
-          <a href="/shedule">Расписание</a>
-          <a href="/shedule">Результаты</a>
+          <a href="/results">Результаты</a>
           <a href="/locations">Места проведения</a>
           <a href="/audio">Аудио</a>
           <a href="/photo">Фоточки</a>

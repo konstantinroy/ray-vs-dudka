@@ -30,6 +30,42 @@ import Photo24 from './photo-img/D5MsUyVHUFs.jpg'
 import Photo25 from './photo-img/xVc1RRKtCh4.jpg'
 import Photo26 from './photo-img/xVc1RRKtCh4-2.jpg'
 import Photo27 from './photo-img/e4r9B7EWQdI.jpg'
+import Photo28 from './photo-img/22Ddolr2x0g.jpg'
+import Photo29 from './photo-img/N8y26rEK0iQ.jpg'
+import Photo30 from './photo-img/9rXH7Mi-rUw.jpg'
+import Photo31 from './photo-img/R1U89zNx5pw.jpg'
+import Photo32 from './photo-img/E_I83OEi0Ws.jpg'
+import Photo33 from './photo-img/ccgbEp5tqyY.jpg'
+import Photo34 from './photo-img/KnWnV8z63u0.jpg'
+import Photo35 from './photo-img/wZSjjKuxrSQ.jpg'
+import Photo36 from './photo-img/37ZJnqVJUHE.jpg'
+import Photo37 from './photo-img/eNpbDe8gvVU.jpg'
+import Photo38 from './photo-img/9axxYsATi9E.jpg'
+import Photo39 from './photo-img/JnFj-qp1JQQ.jpg'
+import Photo40 from './photo-img/zEv-_ygOjz8.jpg'
+import Photo41 from './photo-img/IoYQKF9r6DU.jpg'
+import Photo42 from './photo-img/ydLm0-8SJEA.jpg'
+import Photo43 from './photo-img/kLUKxIpdL5w.jpg'
+import Photo44 from './photo-img/7360YNn1mgE.jpg'
+import Photo45 from './photo-img/csfcgVBG908.jpg'
+import Photo46 from './photo-img/9toev8SqaFs.jpg'
+import Photo47 from './photo-img/HiLWaZrX_aA.jpg'
+import Photo48 from './photo-img/GoSQUaZrWVU.jpg'
+import Photo49 from './photo-img/GGYBboh3Alo.jpg'
+import Photo50 from './photo-img/VOAaPUxR0OQ.jpg'
+import Photo51 from './photo-img/QKZ37MH2TiA.jpg'
+import Photo52 from './photo-img/zyRRa4sARBw.jpg'
+import Photo53 from './photo-img/jtasvkIy3k8.jpg'
+import Photo54 from './photo-img/WmY2XfqdlKI.jpg'
+import Photo55 from './photo-img/ucxspbV1d5Y.jpg'
+import Photo56 from './photo-img/photo_2022-02-03_14-24-01.jpg'
+import Photo57 from './photo-img/photo_2022-02-03_23-57-27.jpg'
+import Photo58 from './photo-img/pLJkZ4vjS_0.jpg'
+import Photo59 from './photo-img/IdXZkvX-WHM.jpg'
+import Photo60 from './photo-img/zPI1UkMJKjU.jpg'
+import Photo61 from './photo-img/eAkeUTqQp_Y.jpg'
+import Photo62 from './photo-img/Aq4QHas7r34.jpg'
+
 
 
 
@@ -178,6 +214,179 @@ function PhotosPage() {
         <div className="photoBlock">
           <div className="allPhoto-box">
           <img src={Photo27} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo28} alt="" /></div>
+          <div className="photo-box"><img src={Photo29} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo30} alt="" /></div>
+          <div className="photo-box"><img src={Photo31} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo32} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo33} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo34} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo35} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo36} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo37} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo38} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo39} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo40} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo41} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo42} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo43} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo44} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo45} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo46} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo49} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo50} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo51} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo52} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo53} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo54} alt="" /></div>
+          <div className="photo-box"><img src={Photo55} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo56} alt="" /></div>
+          <div className="photo-box"><img src={Photo57} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo58} alt="" /></div>
+          <div className="photo-box"><img src={Photo59} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo60} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo61} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo62} className="oneImg2" alt="" />
           </div>
         </div>
 

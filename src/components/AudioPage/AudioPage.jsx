@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
-import audiosArray from "./audiosArray";
-import AudioBlock from "./AudioBlock";
+import AudiosArray from "./AudiosArray";
+import AudioList from "./AudioList";
 import "./AudioPage.scss";
 import AudioPagePhoto from "../../assets/img/AudioPagePhoto.jpg";
 
+const filterAudios = (searchText, listOfAudios) => {
+  if (!searchText) {
+    return listOfAudios;
+  }
+  return listOfAudios.filter(({ audio_name }) =>
+    audio_name.toLowerCase().includes(searchText.toLowerCase())
+  );
+};
+const data = AudiosArray;
+
 function AudioPage() {
+  // Функция для того, чтобы на странице проигрывалась только одна аудио-дорожка одновременно
   document.addEventListener(
     "play",
     (event) => {
@@ -16,6 +27,19 @@ function AudioPage() {
     },
     true
   );
+  //////////////////////
+
+  const [searchTerm, setSearchTerm] = useState("");
+  const [audioList, setAudioList] = useState(data);
+
+  useEffect(() => {
+    const Debounce = setTimeout(() => {
+      const filteredAudios = filterAudios(searchTerm, data);
+      setAudioList(filteredAudios);
+    }, 300);
+
+    return () => clearTimeout(Debounce);
+  }, [searchTerm]);
 
   return (
     <div>
@@ -32,24 +56,21 @@ function AudioPage() {
 
         <div className="inputBlock">
           <input
-            // value={searchTerm}
             // autoFocus
             // type="text"
             autoComplete="off"
             placeholder="Поиск по аудио"
-            // onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={(e) => setSearchTerm(e.target.value)}
           />
           <select name="sort">
-            <option selected value="new">Сортировка: самые последние</option>
+            <option selected value="new">
+              Сортировка: самые последние
+            </option>
             <option value="old">Сортировка: самые ранние</option>
           </select>
         </div>
 
-        <div>
-          {audiosArray.map((audio) => {
-            return <AudioBlock key={audio.id} {...audio} />;
-          })}
-        </div>
+        <AudioList audioList={audioList} />
       </div>
 
       <Footer />

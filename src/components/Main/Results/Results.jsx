@@ -6,7 +6,7 @@ import styles from '../Results/Results.module.scss'
 
 function Results() {
     return (
-        <a href='/shedule'><div className={styles.resultPhotoBlock} >
+        <a href='/results'><div className={styles.resultPhotoBlock} >
             <img className={styles.resultsPcPhoto} src={resultsPcPhoto} alt='' ></img>
             <img className={styles.resultsMobPhoto} src={resultsMobPhoto} alt='' ></img>
             {/* <p className={styles.resultsText}>Результаты всех матчей сезона</p> */}
