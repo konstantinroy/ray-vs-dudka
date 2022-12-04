@@ -1,44 +1,40 @@
-.audioPhotoBlock {
+.photosPhotoBlock {
     width: 100%;
-    margin-top: 5vw;
     text-align: center;
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
 
-.audioPcPhoto {
+.photosPcPhoto {
     width: 100%;
 }
 
-.audioMobPhoto {
+.photosMobPhoto {
     display: none;
     width: 100%;
 }
 
-.audioText {
+.photosText {
     font-family: 'Raleway', sans-serif;
     font-size: 11vw;
     font-weight: 900;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     position: absolute;
-    top: 298vw;
+    top: 362vw;
     text-transform: uppercase;
-    width: 78%;
+    width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
-    
+
 }
 
 @media only screen and (max-width: 480px) {
-    .audioPhotoBlock {
-        margin-top: 10vw;
-    }
-    .audioPcPhoto {
+    .photosPcPhoto {
         display: none;
     }
-    .audioMobPhoto {
+    .photosMobPhoto {
         display: block;
     }
 }

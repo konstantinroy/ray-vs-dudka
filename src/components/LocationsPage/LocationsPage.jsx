@@ -75,7 +75,7 @@ function LocationsPage() {
         </div>
 
         <div className={styles.locationInfoBlock}>
-          <h1>Компьютерный клуб Syber X</h1>
+          <h1>Компьютерный клуб Nintendo</h1>
           <div className={styles.locationPhotoBlock}>
           <Carousel>
               <img src={NintendoPhoto1} alt="" />

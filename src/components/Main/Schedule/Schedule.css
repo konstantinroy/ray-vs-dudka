@@ -1,30 +1,25 @@
-.photosPhotoBlock {
+.schedulePhotoBlock {
     width: 100%;
-    margin-top: 5vw;
     text-align: center;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
 }
 
-.photosPcPhoto {
+.schedulePcPhoto {
     width: 100%;
 }
 
-.photosMobPhoto {
+.scheduleMobPhoto {
     display: none;
     width: 100%;
 }
 
-.photosText {
+.scheduleText {
     font-family: 'Raleway', sans-serif;
     font-size: 11vw;
-    font-weight: 900;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 362vw;
+    top: 66vw;
     text-transform: uppercase;
-    width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -32,13 +27,10 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .photosPhotoBlock {
-        margin-top: 10vw;
-    }
-    .photosPcPhoto {
+    .schedulePcPhoto {
         display: none;
     }
-    .photosMobPhoto {
+    .scheduleMobPhoto {
         display: block;
     }
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
-import styles from "./ResultsPage.module.scss";
+import "./ResultsPage.css";
 import ResultsPagePhoto from "../../assets/img/ResultsPage-photo.jpg";
 
 function ResultsPage() {
@@ -53,31 +53,31 @@ function ResultsPage() {
   return (
     <div>
       <Navbar />
-      <div className={styles.content}>
-        <div className={styles.sheduleHeading}>
-          <div className={styles.pagePhotoBlock}>
+      <div className="content">
+        <div className="sheduleHeading">
+          <div className="pagePhotoBlock">
             <img
-              className={styles.shedulePagePhoto}
+              className="shedulePagePhoto"
               src={ResultsPagePhoto}
               alt=""
             ></img>
           </div>
-          <div className={styles.headingText}>
+          <div className="headingText">
             <h1
-            className={styles.heading}
+            className="heading"
             >Расписание и результаты всех каток 2022-го года</h1>
           </div>
         </div>
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2 
-          className={styles.dateText}
+          className="dateText"
           >25-ое февраля (1 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 3-6 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked1 ? "35vw" : "0",
                 overflow: !isArrowClicked1 ? "visible" : "hidden",
@@ -104,7 +104,7 @@ function ResultsPage() {
               <li>Атлетико 6-2 Арсенал</li>
               <li>Атлетико 3-3 ПСЖ (ничья)</li>
               <h3
-              className={styles.goalsQuotes}>Счёт голов: 18-24</h3>
+              className="goalsQuotes">Счёт голов: 18-24</h3>
             </uL>
             <button
               onClick={onButtonClick1}
@@ -117,16 +117,16 @@ function ResultsPage() {
           </div>
         </div>
 
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >12 марта (2 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 3-1 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked2 ? "35vw" : "0",
                 overflow: !isArrowClicked2 ? "visible" : "hidden",
@@ -150,7 +150,7 @@ function ResultsPage() {
               <li>Челси 5-3 Тоттенхэм</li>
               <li>Арсенал 2-2 Сити (ничья)</li>
               <h3 
-              className={styles.goalsQuotes}>Счёт голов: 18-13</h3>
+              className="goalsQuotes">Счёт голов: 18-13</h3>
             </uL>
             <button
               onClick={onButtonClick2}
@@ -163,16 +163,16 @@ function ResultsPage() {
           </div>
         </div>
 
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >10 апреля (3 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 3-4 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked3 ? "35vw" : "0",
                 overflow: !isArrowClicked3 ? "visible" : "hidden",
@@ -196,7 +196,7 @@ function ResultsPage() {
               <li>МЮ 3-2 Ливерпуль</li>
               <li>Бавария 3-1 ПСЖ</li>
               <h3 
-              className={styles.goalsQuotes}>Счёт голов: 10-12</h3>
+              className="goalsQuotes">Счёт голов: 10-12</h3>
             </uL>
             <button
               onClick={onButtonClick3}
@@ -209,16 +209,16 @@ function ResultsPage() {
           </div>
         </div>
 
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >20 мая (4 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 2-2 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked4 ? "35vw" : "0",
                 overflow: !isArrowClicked4 ? "visible" : "hidden",
@@ -241,7 +241,7 @@ function ResultsPage() {
               <li>Бавария 2-1 Челси</li>
               <li>МЮ 2-2 Реал (ничья)</li>
               <h3 
-              className={styles.goalsQuotes}>Счёт голов: 7-13</h3>
+              className="goalsQuotes">Счёт голов: 7-13</h3>
             </uL>
             <button
               onClick={onButtonClick4}
@@ -256,36 +256,36 @@ function ResultsPage() {
 
         <div 
         style={{ padding: "2vw 0" }}
-        className={styles.matchDayBlock}>
+        className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >9 октября (ТОВАРНЯК)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 0-5 Рай</h1>
         </div>
 
         <div 
         style={{ padding: "2vw 0" }}
-        className={styles.matchDayBlock}>
+        className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >29 октября (ТОВАРНЯК)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 0-5 Рай</h1>
         </div>
 
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >9 ноября (5 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 3-4 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked5 ? "35vw" : "0",
                 overflow: !isArrowClicked5 ? "visible" : "hidden",
@@ -315,7 +315,7 @@ function ResultsPage() {
               <li>МЮ 3-3 МС (ничья)</li>
               <li>Бавария 1-1 ПСЖ (ничья)</li>
               <h3 
-              className={styles.goalsQuotes}>Счёт голов: 23-28</h3>
+              className="goalsQuotes">Счёт голов: 23-28</h3>
             </uL>
             <button
               onClick={onButtonClick5}
@@ -328,16 +328,16 @@ function ResultsPage() {
           </div>
         </div>
 
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >16 ноября (6 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 5-11 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked6 ? "35vw" : "0",
                 overflow: !isArrowClicked6 ? "visible" : "hidden",
@@ -374,7 +374,7 @@ function ResultsPage() {
               <li>Челси 3-2 Арсенал</li>
               <li>Реал 3-4 ПСЖ</li>
               <h3 
-              className={styles.goalsQuotes}>Счёт голов: 41-60</h3>
+              className="goalsQuotes">Счёт голов: 41-60</h3>
             </uL>
             <button
               onClick={onButtonClick6}
@@ -387,16 +387,16 @@ function ResultsPage() {
           </div>
         </div>
 
-        <div className={styles.matchDayBlock}>
+        <div className="matchDayBlock">
           <h2
-          className={styles.dateText}
+          className="dateText"
           >29 ноября (7 ТУР)</h2>
           <h1
-          className={styles.matchScoreText}
+          className="matchScoreText"
           >Дудка 3-6 Рай</h1>
-          <div className={styles.resultList}>
+          <div className="resultList">
             <h3
-            className={styles.viewResults}
+            className="viewResults"
               style={{
                 maxHeight: !isArrowClicked7 ? "35vw" : "0",
                 overflow: !isArrowClicked7 ? "visible" : "hidden",
@@ -426,7 +426,7 @@ function ResultsPage() {
               <li>Наполи 2-2 Интер (ничья)</li>
               <li>Реал 2-6 ПСЖ</li>
               <h3 
-              className={styles.goalsQuotes}>Счёт голов: 26-35</h3>
+              className="goalsQuotes">Счёт голов: 26-35</h3>
             </uL>
             <button
               onClick={onButtonClick7}

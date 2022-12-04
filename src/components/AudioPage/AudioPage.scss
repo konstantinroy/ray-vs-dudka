@@ -54,6 +54,8 @@
 
 .audioHeading img {
   width: 100%;
+  animation-name: animate-main-photo;
+  animation-duration: 3s;
 }
 
 .headingText {
@@ -78,6 +80,15 @@
   width: 50%;
   height: 4.5vw;
   margin-top: 1vw;
+}
+
+@keyframes animate-main-photo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -134,9 +145,10 @@
   }
   .inputBlock {
     margin: 4vw 0;
+    justify-content: space-evenly;
 }
   .inputBlock input {
-    width: 40%;
+    width: 60%;
     font-size: 4vw;
     margin: 0 4vw 0 0vw;
   }

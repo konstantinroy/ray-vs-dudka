@@ -50,6 +50,8 @@
 
 .sheduleHeading img {
   width: 100%;
+  animation-name: animate-main-photo;
+  animation-duration: 3s;
 }
 
 .headingText {
@@ -105,6 +107,15 @@
   font-size: 1.8vw;
 }
 
+@keyframes animate-main-photo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .sheduleHeading {
     padding-top: 8vw;
@@ -148,7 +159,7 @@
 
 @media only screen and (max-width: 480px) {
   .sheduleHeading {
-    padding-top: 14vw;
+    padding-top: 0vw;
   }
   .sheduleHeading img {
     width: 200%;

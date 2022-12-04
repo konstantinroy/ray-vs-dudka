@@ -41,6 +41,12 @@ function AudioPage() {
     return () => clearTimeout(Debounce);
   }, [searchTerm]);
 
+  // const fn = () => {
+  //   data.sort((prev, next) => next.id - prev.id);
+  // }
+  // <AudiosArray fn={fn} />
+
+
   return (
     <div>
       <Navbar />
@@ -63,10 +69,14 @@ function AudioPage() {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <select name="sort">
-            <option selected value="new">
+            <option selected value="new"
+            // onClick={sortNewest}
+            >
               Сортировка: самые последние
             </option>
-            <option value="old">Сортировка: самые ранние</option>
+            <option value="old"
+            // onClick={sortOldest}
+            >Сортировка: самые ранние</option>
           </select>
         </div>
 

@@ -1,45 +1,36 @@
-.resultPhotoBlock {
+.quotesPhotoBlock {
     width: 100%;
-    margin-top: 5vw;
     text-align: center;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.resultsPcPhoto {
+.quotesPcPhoto {
     width: 100%;
 }
 
-.resultsMobPhoto {
+.quotesMobPhoto {
     display: none;
+    width: 100%;
 }
 
-
-.resultsText {
+.quotesText {
     font-family: 'Raleway', sans-serif;
     font-size: 11vw;
-    color: #fff;
+    color: rgb(255, 255, 255);
     position: absolute;
-    top: 144vw;
+    top: 425vw;
     text-transform: uppercase;
-    width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
-
+    
 }
 
 @media only screen and (max-width: 480px) {
-    .resultPhotoBlock {
-        margin-top: 10vw;
-    }
-    .resultsPcPhoto {
+    .quotesPcPhoto {
         display: none;
     }
-    .resultsMobPhoto {
+    .quotesMobPhoto {
         display: block;
-        width: 100%;
     }
 }

@@ -1,40 +1,37 @@
-.quotesPhotoBlock {
+.locationsPhotoBlock {
     width: 100%;
-    margin-top: 5vw;
     text-align: center;
     overflow: hidden;
 }
 
-.quotesPcPhoto {
+.locationsPcPhoto {
     width: 100%;
 }
 
-.quotesMobPhoto {
+.locationsMobPhoto {
     display: none;
     width: 100%;
 }
 
-.quotesText {
+.locationsText {
     font-family: 'Raleway', sans-serif;
     font-size: 11vw;
-    color: rgb(255, 255, 255);
+    font-weight: 900;
+    color: rgb(0, 0, 0);
     position: absolute;
-    top: 425vw;
+    top: 222vw;
     text-transform: uppercase;
 }
 
 @media only screen and (max-width: 760px) {
-    
+
 }
 
 @media only screen and (max-width: 480px) {
-    .quotesPhotoBlock {
-        margin-top: 10vw;
-    }
-    .quotesPcPhoto {
+    .locationsPcPhoto {
         display: none;
     }
-    .quotesMobPhoto {
+    .locationsMobPhoto {
         display: block;
     }
 }
