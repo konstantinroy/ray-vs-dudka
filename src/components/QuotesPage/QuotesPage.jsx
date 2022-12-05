@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
-import "./QuotesPage.scss";
+import "./QuotesPage.css";
 import QuotesPagePhoto from "../../assets/img/QuotesPagePhoto.jpg";
 
 function QuotesPage() {
