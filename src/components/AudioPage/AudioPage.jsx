@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
+import BackToTopButton from '../BackToTopButton'
 import AudiosArray from "./AudiosArray";
 import AudioList from "./AudioList";
 import "./AudioPage.scss";
@@ -81,6 +82,7 @@ function AudioPage() {
         </div>
 
         <AudioList audioList={audioList} />
+        <BackToTopButton />
       </div>
 
       <Footer />

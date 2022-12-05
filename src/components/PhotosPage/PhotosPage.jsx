@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
+import BackToTopButton from '../BackToTopButton'
 import "./PhotosPage.scss";
 import PhotoPagePhoto from "../../assets/img/PhotoPagePhoto.jpg";
 import Photo1 from './photo-img/ZIYtf494hZQ.jpg'
@@ -390,6 +391,8 @@ function PhotosPage() {
           </div>
         </div>
 
+
+        <BackToTopButton />
       </div>
 
       <Footer />
