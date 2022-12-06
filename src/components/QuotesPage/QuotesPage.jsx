@@ -25,7 +25,7 @@ function QuotesPage() {
           </div>
         </div>
 
-        <div className="quotesBlock">
+        {/* <div className="quotesBlock">
           <div className="quotesText">
           Я живу гонками на четверть мили, а на остальное плевать, поскольку эти десять или меньше секунд - я свободен...</div>
           <div className="quoteAuthor">© Никита Дудка
@@ -66,7 +66,7 @@ function QuotesPage() {
           Гони или умри...</div>
           <div className="quoteAuthor">© Никита Дудка
           </div>
-        </div>
+        </div> */}
 
         
       </div>
