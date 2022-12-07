@@ -66,6 +66,17 @@ import Photo59 from './photo-img/IdXZkvX-WHM.jpg'
 import Photo60 from './photo-img/zPI1UkMJKjU.jpg'
 import Photo61 from './photo-img/eAkeUTqQp_Y.jpg'
 import Photo62 from './photo-img/Aq4QHas7r34.jpg'
+import Photo63 from './photo-img/rXzNMKt0R0A.jpg'
+import Photo64 from './photo-img/Jl3n20SiINk.jpg'
+import Photo65 from './photo-img/I2IYlR3AZAE.jpg'
+import Photo66 from './photo-img/SSjaereRhOM.jpg'
+import Photo67 from './photo-img/awdGjFwxhtc.jpg'
+import Photo68 from './photo-img/y16XQd9_uJ4.jpg'
+import Photo69 from './photo-img/79cEC0-40BQ.jpg'
+import Photo70 from './photo-img/Ndf6nOrpQZ8.jpg'
+import Photo73 from './photo-img/AkdIu2SgA70.jpg'
+import Photo74 from './photo-img/X08DnwltA_E.jpg'
+import Photo75 from './photo-img/KWDEbo_rC5c.jpg'
 
 
 
@@ -387,7 +398,68 @@ function PhotosPage() {
 
         <div className="photoBlock">
           <div className="allPhoto-box">
-          <img src={Photo62} className="oneImg2" alt="" />
+          <img src={Photo62} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo63} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo64} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo65} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo66} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo67} alt="" /></div>
+          <div className="photo-box"><img src={Photo68} alt="" /></div>
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo69} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo70} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo73} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo74} className="oneImg" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <img src={Photo75} className="oneImg2" alt="" />
           </div>
         </div>
 
