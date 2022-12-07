@@ -3,10 +3,10 @@ import Audio from './Audio';
 const AudioList = ({ audioList, searchTerm }) => {
     return (
         <div>
-            {audioList.map((audio, index) => {
+            {audioList.map((audio) => {
                 return (
                     <Audio
-                        key={index}
+                        key={audio.id}
                         audioName={audio.audio_name}
                         audioLink={audio.audio_link}
                     />

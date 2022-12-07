@@ -201,6 +201,4 @@ const AudiosArray = [
   },
 ];
 
-AudiosArray.sort((prev, next) => next.id - prev.id);
-
 export default AudiosArray;

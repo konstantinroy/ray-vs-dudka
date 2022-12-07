@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
 import BackToTopButton from '../BackToTopButton'
-import AudiosArray from "./AudiosArray";
+import AudiosArrayData from "./AudiosArray";
 import AudioList from "./AudioList";
 import "./AudioPage.scss";
 import AudioPagePhoto from "../../assets/img/AudioPagePhoto.jpg";
+import { useCallback } from "react";
 
 const filterAudios = (searchText, listOfAudios) => {
   if (!searchText) {
@@ -15,7 +16,6 @@ const filterAudios = (searchText, listOfAudios) => {
     audio_name.toLowerCase().includes(searchText.toLowerCase())
   );
 };
-const data = AudiosArray;
 
 function AudioPage() {
   // Функция для того, чтобы на странице проигрывалась только одна аудио-дорожка одновременно
@@ -30,23 +30,32 @@ function AudioPage() {
   );
   //////////////////////
 
+  const [sortType, setSortType] = useState('asc');
   const [searchTerm, setSearchTerm] = useState("");
-  const [audioList, setAudioList] = useState(data);
+  const [audioList, setAudioList] = useState(AudiosArrayData);
 
   useEffect(() => {
     const Debounce = setTimeout(() => {
-      const filteredAudios = filterAudios(searchTerm, data);
+      const filteredAudios = filterAudios(searchTerm, AudiosArrayData);
       setAudioList(filteredAudios);
     }, 300);
 
     return () => clearTimeout(Debounce);
   }, [searchTerm]);
 
-  // const fn = () => {
-  //   data.sort((prev, next) => next.id - prev.id);
-  // }
-  // <AudiosArray fn={fn} />
+  const onSortClick = useCallback((e) => {
+    setSortType(e.target.value);
 
+    setAudioList((prevState) => {
+      if (e.target.value === 'asc') {
+        return [...prevState.sort((prev, next) => next.id - prev.id)];
+      }
+      
+      if (e.target.value === 'desc') {
+        return [...prevState.sort((prev, next) => prev.id - next.id)];
+      }
+    });
+  }, []);
 
   return (
     <div>
@@ -69,15 +78,22 @@ function AudioPage() {
             placeholder="Поиск по аудио"
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <select name="sort">
-            <option selected value="new"
-            // onClick={sortNewest}
+
+          <select
+            name="sort"
+            value={sortType}
+            onChange={onSortClick}
+          >
+            <option
+              value="asc"
             >
               Сортировка: самые последние
             </option>
-            <option value="old"
-            // onClick={sortOldest}
-            >Сортировка: самые ранние</option>
+            <option
+              value="desc"
+            >
+              Сортировка: самые ранние
+            </option>
           </select>
         </div>
 

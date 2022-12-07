@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
 import styles from "./LocationsPage.module.scss";
-import Carousel from "nuka-carousel/lib/carousel";
+import Carousel from "../CommonComponents/Carousel";
 import LocationsPagePhoto from "../../assets/img/LocationsPagePhoto.jpg";
 import DudaHomePhoto1 from "./img/photo_2022-11-29_23-26-45.jpg";
 import DudaHomePhoto2 from "./img/photo_2022-11-29_23-26-52.jpg";
@@ -40,8 +40,9 @@ function LocationsPage() {
 
         <div className={styles.locationInfoBlock}>
           <h1>Дома у Никиты</h1>
+
           <div className={styles.locationPhotoBlock}>
-          <Carousel>
+            <Carousel>
               <img src={DudaHomePhoto1} alt="" />
               <img src={DudaHomePhoto2} alt="" />
               <img src={DudaHomePhoto3} alt="" />
