@@ -4,8 +4,8 @@ const Carousel = ({ children, ...props }) => {
   return (
     <NukaCarousel
       defaultControlsConfig={{
-        nextButtonText: <div>След</div>,
-        prevButtonText: <div>Прев</div>,
+        nextButtonText: <div>❯</div>,
+        prevButtonText: <div>❮</div>,
       }}
       {...props}
     >
