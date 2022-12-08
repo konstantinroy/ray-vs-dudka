@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -23,15 +24,15 @@ const Navbar = () => {
     <div>
       <div className="pcMenu">
         <div className="logo__block">
-        <a href="/main">RayVsDudka</a> 
+        <Link to="/main">RayVsDudka</Link> 
         </div>
         <div className="wrapper">
           <ul className="PClinks">
-            <a href="/results">Результаты</a>
-            <a href="/locations">Места проведения</a>
-            <a href="/audio">Аудио</a>
-            <a href="/photo">Фоточки</a>
-            <a href="/quotes">Цитаты</a>
+          <Link to="/results">Результаты</Link>
+          <Link to="/locations">Места проведения</Link>
+          <Link to="/audio">Аудио</Link>
+          <Link to="/photo">Фоточки</Link>
+          <Link to="/quotes">Цитаты</Link>
           </ul>
           <div className="buttons">
             <button className="login-button">ВХОД</button>
@@ -47,17 +48,17 @@ const Navbar = () => {
             <div className={burger_class}></div>
             <div className={burger_class}></div>
           </div>
-          <div className="logo__block"><a href="/main">RayVsDudka</a></div>
+          <div className="logo__block"><Link to="/main">RayVsDudka</Link></div>
         </nav>
         <div className={menu_class}>
-          <a href="/results">Результаты</a>
-          <a href="/locations">Места проведения</a>
-          <a href="/audio">Аудио</a>
-          <a href="/photo">Фоточки</a>
-          <a href="/quotes">Цитаты</a>
+        <Link to="/results">Результаты</Link>
+        <Link to="/locations">Места проведения</Link>
+        <Link to="/audio">Аудио</Link>
+        <Link to="/photo">Фоточки</Link>
+        <Link to="/quotes">Цитаты</Link>
           <div className="registrButtons">
-            <a href="/">ВХОД</a>
-            <a href="/">РЕГИСТРАЦИЯ</a>
+          <Link to="/">ВХОД</Link>
+          <Link to="/">РЕГИСТРАЦИЯ</Link>
           </div>
         </div>
       </div>

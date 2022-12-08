@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Main from "../src/components/Main/Main.jsx";
 import Results from "../src/components/ResultsPage/ResultsPage.jsx";
 import LocationsPage from "../src/components/LocationsPage/LocationsPage.jsx";
@@ -25,9 +25,9 @@ const Links = () => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Links />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
