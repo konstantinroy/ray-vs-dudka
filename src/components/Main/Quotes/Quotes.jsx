@@ -6,7 +6,7 @@ import '../Quotes/Quotes.css'
 
 function Quotes() {
     return (
-        <Link to='/'><div className="quotesPhotoBlock">
+        <Link to="/quotes"><div className="quotesPhotoBlock">
             <img className="quotesPcPhoto" src={quotesPcPhoto} alt='' ></img>
             <img className="quotesMobPhoto" src={quotesMobPhoto} alt='' ></img>
             {/* <p className=quotesText}>Лучшие цитаты Рая и Дудки</p> */}
