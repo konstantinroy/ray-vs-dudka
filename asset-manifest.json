@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RayVSDudka-app/static/css/main.5fe2e1d2.css",
-    "main.js": "/RayVSDudka-app/static/js/main.1f893161.js",
+    "main.js": "/RayVSDudka-app/static/js/main.9c550a97.js",
     "static/js/787.28cb0dcd.chunk.js": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/27. no pain no gain.wav": "/RayVSDudka-app/static/media/27. no pain no gain.0fa7720a1d9f14aa1c38.wav",
     "static/media/18. Никита на приёме у психоаналитика.mp3": "/RayVSDudka-app/static/media/18. Никита на приёме у психоаналитика.e7809892c8d70422cf5d.mp3",
@@ -147,11 +147,11 @@
     "static/media/GooglePlayIcon.png": "/RayVSDudka-app/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/RayVSDudka-app/index.html",
     "main.5fe2e1d2.css.map": "/RayVSDudka-app/static/css/main.5fe2e1d2.css.map",
-    "main.1f893161.js.map": "/RayVSDudka-app/static/js/main.1f893161.js.map",
+    "main.9c550a97.js.map": "/RayVSDudka-app/static/js/main.9c550a97.js.map",
     "787.28cb0dcd.chunk.js.map": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fe2e1d2.css",
-    "static/js/main.1f893161.js"
+    "static/js/main.9c550a97.js"
   ]
 }
