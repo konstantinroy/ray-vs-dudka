@@ -45,11 +45,11 @@ function LocationsPage() {
             <Carousel>
               <img src={DudaHomePhoto1} alt="" />
               <img src={DudaHomePhoto2} alt="" />
-              <img src={DudaHomePhoto3} alt="" />
               <img src={DudaHomePhoto5} alt="" />
-              <img src={DudaHomePhoto6} alt="" />
+              <img src={DudaHomePhoto3} alt="" />
               <img src={DudaHomePhoto7} alt="" />
               <img src={DudaHomePhoto8} alt="" />
+              <img src={DudaHomePhoto6} alt="" />
               <img src={DudaHomePhoto9} alt="" />
             </Carousel>
           </div>
