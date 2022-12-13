@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RayVSDudka-app/static/css/main.c354a79f.css",
-    "main.js": "/RayVSDudka-app/static/js/main.c7d256c0.js",
+    "main.js": "/RayVSDudka-app/static/js/main.f106d87b.js",
     "static/js/787.28cb0dcd.chunk.js": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/27. no pain no gain.wav": "/RayVSDudka-app/static/media/27. no pain no gain.0fa7720a1d9f14aa1c38.wav",
     "static/media/18. Никита на приёме у психоаналитика.mp3": "/RayVSDudka-app/static/media/18. Никита на приёме у психоаналитика.e7809892c8d70422cf5d.mp3",
@@ -107,6 +107,7 @@
     "static/media/x9z8WwMqZYA.jpg": "/RayVSDudka-app/static/media/x9z8WwMqZYA.f94d5c4fb3ed471753bd.jpg",
     "static/media/photo_2022-11-29_23-27-05.jpg": "/RayVSDudka-app/static/media/photo_2022-11-29_23-27-05.4413471ff4c9e1ebe8f6.jpg",
     "static/media/R1U89zNx5pw.jpg": "/RayVSDudka-app/static/media/R1U89zNx5pw.998c1e5da21e128bc33c.jpg",
+    "static/media/photo_2022-12-14_02-28-41.jpg": "/RayVSDudka-app/static/media/photo_2022-12-14_02-28-41.d40580aaa17627b37733.jpg",
     "static/media/AUodPLvkf60.jpg": "/RayVSDudka-app/static/media/AUodPLvkf60.0e78d07ce9ca781fbe62.jpg",
     "static/media/M3_7BYJ29W8.jpg": "/RayVSDudka-app/static/media/M3_7BYJ29W8.51b910316132d17fa15a.jpg",
     "static/media/csfcgVBG908.jpg": "/RayVSDudka-app/static/media/csfcgVBG908.065871eeb98272763d4e.jpg",
@@ -116,6 +117,7 @@
     "static/media/CFnMgkFhi1g.jpg": "/RayVSDudka-app/static/media/CFnMgkFhi1g.656cd1df7dd2e6c4195c.jpg",
     "static/media/N2.jpg": "/RayVSDudka-app/static/media/N2.141133664e45e9ebea01.jpg",
     "static/media/X08DnwltA_E.jpg": "/RayVSDudka-app/static/media/X08DnwltA_E.4130754a63571616e41a.jpg",
+    "static/media/photo_2022-12-14_02-28-41 (2).jpg": "/RayVSDudka-app/static/media/photo_2022-12-14_02-28-41 (2).8b788e19bc8014af68a3.jpg",
     "static/media/PhotosPcPhoto.jpg": "/RayVSDudka-app/static/media/PhotosPcPhoto.cb5fcf2e993535bb67b4.jpg",
     "static/media/HiLWaZrX_aA.jpg": "/RayVSDudka-app/static/media/HiLWaZrX_aA.c76bebdd5e83e7773001.jpg",
     "static/media/GGz5hBXkA3Q.jpg": "/RayVSDudka-app/static/media/GGz5hBXkA3Q.3f1009d8d7569d0110d5.jpg",
@@ -146,11 +148,11 @@
     "static/media/GooglePlayIcon.png": "/RayVSDudka-app/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/RayVSDudka-app/index.html",
     "main.c354a79f.css.map": "/RayVSDudka-app/static/css/main.c354a79f.css.map",
-    "main.c7d256c0.js.map": "/RayVSDudka-app/static/js/main.c7d256c0.js.map",
+    "main.f106d87b.js.map": "/RayVSDudka-app/static/js/main.f106d87b.js.map",
     "787.28cb0dcd.chunk.js.map": "/RayVSDudka-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c354a79f.css",
-    "static/js/main.c7d256c0.js"
+    "static/js/main.f106d87b.js"
   ]
 }
