@@ -17,17 +17,19 @@
 
 
 .resultsText {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
     font-size: 11vw;
     color: #fff;
     position: absolute;
-    top: 144vw;
+    top: 123vw;
     text-transform: uppercase;
     width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
-
+    .resultsText {
+        top: 136vw;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -36,6 +38,11 @@
     }
     .resultsMobPhoto {
         display: block;
+        width: 100%;
+    }
+    .resultsText {
+        top: 365vw;
+        font-size: 13vw;
         width: 100%;
     }
 }

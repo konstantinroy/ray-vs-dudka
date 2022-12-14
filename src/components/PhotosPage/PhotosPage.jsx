@@ -77,6 +77,8 @@ import Photo70 from './photo-img/Ndf6nOrpQZ8.jpg'
 import Photo73 from './photo-img/AkdIu2SgA70.jpg'
 import Photo74 from './photo-img/X08DnwltA_E.jpg'
 import Photo75 from './photo-img/KWDEbo_rC5c.jpg'
+import Photo76 from './photo-img/photo_2022-12-14_02-28-41.jpg'
+import Photo77 from './photo-img/photo_2022-12-14_02-28-41 (2).jpg'
 
 
 
@@ -460,6 +462,13 @@ function PhotosPage() {
         <div className="photoBlock">
           <div className="allPhoto-box">
           <img src={Photo75} className="oneImg2" alt="" />
+          </div>
+        </div>
+
+        <div className="photoBlock">
+          <div className="allPhoto-box">
+          <div className="photo-box"><img src={Photo76} alt="" /></div>
+          <div className="photo-box"><img src={Photo77} alt="" /></div>
           </div>
         </div>
 

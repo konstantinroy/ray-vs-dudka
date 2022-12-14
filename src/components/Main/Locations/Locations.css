@@ -14,17 +14,18 @@
 }
 
 .locationsText {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
     font-size: 11vw;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
+    color: #fff;
     position: absolute;
-    top: 222vw;
+    top: 192vw;
     text-transform: uppercase;
 }
 
 @media only screen and (max-width: 760px) {
-
+    .locationsText {
+        top: 204vw;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -33,5 +34,9 @@
     }
     .locationsMobPhoto {
         display: block;
+    }
+    .locationsText {
+        top: 485vw;
+        font-size: 13vw;
     }
 }

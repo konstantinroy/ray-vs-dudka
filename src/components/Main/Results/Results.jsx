@@ -10,7 +10,7 @@ function Results() {
         <Link to='/results'><div className="resultPhotoBlock" >
             <img className="resultsPcPhoto" src={resultsPcPhoto} alt='' ></img>
             <img className="resultsMobPhoto" src={resultsMobPhoto} alt='' ></img>
-            {/* <p className=resultsText}>Результаты всех матчей сезона</p> */}
+            <p className="resultsText">Результаты всех матчей сезона</p>
         </div></Link>
     )
 }

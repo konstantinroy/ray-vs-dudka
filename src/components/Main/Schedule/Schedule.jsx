@@ -9,7 +9,7 @@ function Schedule() {
         <Link to='/results'><div className="schedulePhotoBlock">
             <img className="schedulePcPhoto" src={schedulePcPhoto} alt='' ></img>
             <img className="scheduleMobPhoto" src={scheduleMobPhoto} alt='' ></img>
-            {/* <p className="scheduleText">Расписание ближайших каток</p> */}
+            <p className="scheduleText">Расписание ближайших каток</p>
         </div></Link>
     )
 }

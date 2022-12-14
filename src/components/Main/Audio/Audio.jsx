@@ -9,9 +9,9 @@ function Audio() {
         <Link to='/audio'><div className="audioPhotoBlock">
             <img className="audioPcPhoto" src={audioPcPhoto} alt='' ></img>
             <img className="audioMobPhoto" src={audioMobPhoto} alt='' ></img>
-            {/* <p className=audioText}>Все аудио 
+            <p className="audioText">Все аудио 
             в одном 
-            месте</p> */}
+            месте</p>
         </div></Link>
     )
 }

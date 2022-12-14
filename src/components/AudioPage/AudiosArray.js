@@ -1,4 +1,4 @@
-import One from "./audio/1. Заключительный разговор Рая и Дудки.mp3";
+// import One from "./audio/1. Заключительный разговор Рая и Дудки.mp3";
 import Two from "./audio/2. Райская месть.mp3";
 import Three from "./audio/3. Расплата.mp3";
 import Four from "./audio/4. Предатель должен умереть.mp3";
@@ -36,17 +36,19 @@ const AudiosArray = [
   {
     id: 1,
     audio_name: "Заключительный разговор Рая и Дудки",
-    audio_link: One,
+    audio_link:
+      "https://downloader.disk.yandex.ru/disk/1a7b59994a660c801c2e2000562fae53149e27777774248be443c5e7ffb0ab3f/6392ad99/NR8U9ibl-S4_LHGMpS4CVBcUlPuStc4z7N2mGLg4he5bbyXxPpsxPIgIOnq9_I2RLo3d1_zO43-EPel7xcDCUg%3D%3D?uid=481865193&filename=9.%D0%97%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B0%D0%B7%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D0%A0%D0%B0%D1%8F%20%D0%B8%20%D0%94%D1%83%D0%B4%D0%BA%D0%B8.mp3&disposition=inline&hash=&limit=0&content_type=audio%2Fmpeg&owner_uid=481865193&fsize=1324411&hid=db981a356a95a2e0b68affb36c80071a&media_type=audio&tknv=v2&etag=cadf2b0707b44e82b0e3ba21c53c5173",
   },
-  { 
-    id: 2, 
-    audio_name: "Райская месть", 
-    audio_link: Two 
+  {
+    id: 2,
+    audio_name: "Райская месть",
+    audio_link: Two,
   },
-  { 
-    id: 3, 
-    audio_name: "Расплата", 
-    audio_link: Three },
+  {
+    id: 3,
+    audio_name: "Расплата",
+    audio_link: Three,
+  },
   {
     id: 4,
     audio_name: "Предатель должен умереть",

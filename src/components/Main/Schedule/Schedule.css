@@ -14,16 +14,18 @@
 }
 
 .scheduleText {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
     font-size: 11vw;
-    color: rgb(0, 0, 0);
+    color: #fff;
     position: absolute;
-    top: 66vw;
+    top: 60vw;
     text-transform: uppercase;
 }
 
 @media only screen and (max-width: 760px) {
-
+    .scheduleText {
+        top: 71vw;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -32,5 +34,9 @@
     }
     .scheduleMobPhoto {
         display: block;
+    }
+    .scheduleText {
+        top: 233vw;
+        font-size: 13vw;
     }
 }

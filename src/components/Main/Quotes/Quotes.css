@@ -14,16 +14,19 @@
 }
 
 .quotesText {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Rubik Vinyl", cursive;
     font-size: 11vw;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 425vw;
+    top: 380vw;
     text-transform: uppercase;
+    width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
-    
+    .quotesText {
+        top: 393vw;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -32,5 +35,9 @@
     }
     .quotesMobPhoto {
         display: block;
+    }
+    .quotesText {
+        top: 855vw;
+        font-size: 13vw;
     }
 }

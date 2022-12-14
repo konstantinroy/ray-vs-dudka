@@ -9,7 +9,7 @@ function Locations() {
         <Link to='/locations'><div className="locationsPhotoBlock" >
             <img className="locationsPcPhoto" src={locationsPcPhoto} alt='' ></img>
             <img className="locationsMobPhoto" src={locationsMobPhoto} alt='' ></img>
-            {/* <p className=locationsText}>Места проведения каток</p> */}
+            <p className="locationsText">Места проведения каток</p>
         </div></Link>
     )
 }

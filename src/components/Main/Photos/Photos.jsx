@@ -9,7 +9,7 @@ function Photos() {
         <Link to='/photo'><div className="photosPhotoBlock">
             <img className="photosPcPhoto" src={photosPcPhoto} alt='' ></img>
             <img className="photosMobPhoto" src={photosMobPhoto} alt='' ></img>
-            {/* <p className=photosText}>Лучшие фоточки за всё время</p> */}
+            <p className="photosText">Лучшие фоточки за всё время</p>
         </div></Link>
     )
 }

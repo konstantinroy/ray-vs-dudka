@@ -9,7 +9,8 @@ function Quotes() {
         <Link to="/quotes"><div className="quotesPhotoBlock">
             <img className="quotesPcPhoto" src={quotesPcPhoto} alt='' ></img>
             <img className="quotesMobPhoto" src={quotesMobPhoto} alt='' ></img>
-            {/* <p className=quotesText}>Лучшие цитаты Рая и Дудки</p> */}
+            <p className="quotesText">Лучшие цитаты<br />
+            Рая и Дудки</p>
         </div></Link>
     )
 }
