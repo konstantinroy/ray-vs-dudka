@@ -56,10 +56,10 @@ const Navbar = () => {
         <Link to="/audio">Аудио</Link>
         <Link to="/photo">Фоточки</Link>
         <Link to="/quotes">Цитаты</Link>
-          <div className="registrButtons">
+          {/* <div className="registrButtons">
           <Link to="/">ВХОД</Link>
           <Link to="/">РЕГИСТРАЦИЯ</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
