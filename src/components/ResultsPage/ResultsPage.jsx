@@ -13,6 +13,7 @@ function ResultsPage() {
   const [buttonText6, setButtonText6] = React.useState("ᐯ");
   const [buttonText7, setButtonText7] = React.useState("ᐯ");
   const [buttonText8, setButtonText8] = React.useState("ᐯ");
+  const [buttonText9, setButtonText9] = React.useState("ᐯ");
 
   const [isArrowClicked1, setIsArrowClicked1] = useState(false);
   const [isArrowClicked2, setIsArrowClicked2] = useState(false);
@@ -22,6 +23,7 @@ function ResultsPage() {
   const [isArrowClicked6, setIsArrowClicked6] = useState(false);
   const [isArrowClicked7, setIsArrowClicked7] = useState(false);
   const [isArrowClicked8, setIsArrowClicked8] = useState(false);
+  const [isArrowClicked9, setIsArrowClicked9] = useState(false);
 
   const onButtonClick1 = () => (
     !isArrowClicked1 ? setButtonText1("ᐱ") : setButtonText1("ᐯ"),
@@ -54,6 +56,10 @@ function ResultsPage() {
   const onButtonClick8 = () => (
     !isArrowClicked8 ? setButtonText8("ᐱ") : setButtonText8("ᐯ"),
     setIsArrowClicked8(!isArrowClicked8)
+  );
+  const onButtonClick9 = () => (
+    !isArrowClicked9 ? setButtonText9("ᐱ") : setButtonText9("ᐯ"),
+    setIsArrowClicked9(!isArrowClicked9)
   );
 
   return (
@@ -497,6 +503,59 @@ function ResultsPage() {
               }}
             >
               {buttonText8}
+            </button>
+          </div>
+        </div>
+
+        <div className="matchDayBlock">
+          <h2
+          className="dateText"
+          >27 декабря (9 ТУР)</h2>
+          <h1
+          className="matchScoreText"
+          >Дудка 9-5 Рай</h1>
+          <div className="resultList">
+            <h3
+            className="viewResults"
+              style={{
+                maxHeight: !isArrowClicked9 ? "35vw" : "0",
+                overflow: !isArrowClicked9 ? "visible" : "hidden",
+                transition: !isArrowClicked9 ? "0.2s" : "0s",
+              }}
+            >
+              Посмотреть результаты матчей
+            </h3>
+            <uL
+              style={{
+                maxHeight: !isArrowClicked9 ? "0" : "170vw",
+                overflow: !isArrowClicked9 ? "hidden" : "visible",
+                transition: !isArrowClicked9 ? "0.7s" : "0.6s",
+              }}
+            >
+              <li>Реал 0-2 ПСЖ</li>
+              <li>ПСЖ 4-3 Тоттенхэм</li>
+              <li>МЮ 3-1 МС</li>
+              <li>Челси 0-5 Бавария</li>
+              <li>Бавария 5-1 Реал</li>
+              <li>Барселона 3-4 Ливерпуль</li>
+              <li>Италия 2-3 Франция</li>
+              <li>ЦСКА 2-1 МЮ</li>
+              <li>Бенфика 0-5 Лестер</li>
+              <li>Атлетико 2-1 Барселона</li>
+              <li>Реал 5-3 ПСЖ</li>
+              <li>Реал 1-0 ПСЖ</li>
+              <li>ПСЖ 4-3 Бавария</li>
+              <li>Бавария 6-1 Тоттенхэм</li>
+              <h3 
+              className="goalsQuotes">Счёт голов: 37-33</h3>
+            </uL>
+            <button
+              onClick={onButtonClick9}
+              style={{
+                marginTop: !isArrowClicked9 ? "0" : "2vw",
+              }}
+            >
+              {buttonText9}
             </button>
           </div>
         </div>
