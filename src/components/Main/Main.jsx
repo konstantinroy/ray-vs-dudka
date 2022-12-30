@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from "react";
+import MainWindowPhoto from "../../assets/img/main-window-photo.jpg";
+import "./Main.css";
 import Navbar from "./Header/Navbar.jsx";
 import MainPhoto from "./MainPhoto/MainPhoto.jsx";
 import Schedule from "./Schedule/Schedule.jsx";
@@ -9,38 +11,51 @@ import Photos from "./Photos/Photos.jsx";
 import Quotes from "./Quotes/Quotes.jsx";
 import Footer from "./Footer/Footer.jsx";
 
-let pageQuestion = prompt("Кто выиграл чемпионат по фифе 2022 года?");
-
-switch (pageQuestion) {
-  case "Рай":
-  case "рай":
-  case "Костя":
-  case "костя":
-    case "Константин Рай":
-      case "константин рай":
-        case "Костя Рай":
-        case "костя рай":
-    alert("Правильно! Костя Рай победитель сезона 2022");
-    break;
-  default:
-    alert("Нет! Сезон выиграл Рай!");
-    break;
-}
-
 function Main() {
-    return (
-      <div>
-        <Navbar />
-        <MainPhoto />
-        <Schedule />
-        <Results />
-        <Locations />
-        <Audio />
-        <Photos />
-        <Quotes />
-        <Footer />
+  const [window, setWindow] = React.useState(true);
+
+  const exitBtn = () => {
+    setWindow(!window);
+  };
+
+  const componentWillMount = () => {
+    document.body.style.overflow = "hidden";
+  };
+  const componentWillUnmount = () => {
+    document.body.style.overflow = "visible";
+  };
+
+  if (window) {
+    componentWillMount();
+  }
+  if (!window) {
+    componentWillUnmount();
+  }
+
+  return (
+    <div>
+      <div className={window ? "main-window block" : "main-window none"}>
+        <img src={MainWindowPhoto} alt="" />
+        <button className="exit-btn" onClick={exitBtn}>
+          ×
+        </button>
+        <div className="main-window_text">
+          <div className="photo-text">
+            <p>Константин Рай победитель сезона 2022 года!!!</p>
+          </div>
+        </div>
       </div>
-    );
+      <Navbar />
+      <MainPhoto />
+      <Schedule />
+      <Results />
+      <Locations />
+      <Audio />
+      <Photos />
+      <Quotes />
+      <Footer />
+    </div>
+  );
 }
 
-export default Main
+export default Main;
