@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/ray-vs-dudka/static/css/main.c354a79f.css",
-    "main.js": "/ray-vs-dudka/static/js/main.3f493025.js",
+    "main.css": "/ray-vs-dudka/static/css/main.422cd7cd.css",
+    "main.js": "/ray-vs-dudka/static/js/main.7cdd2975.js",
     "static/js/787.28cb0dcd.chunk.js": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js",
     "static/media/27. no pain no gain.wav": "/ray-vs-dudka/static/media/27. no pain no gain.0fa7720a1d9f14aa1c38.wav",
+    "static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.mp3": "/ray-vs-dudka/static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.6605ba018a142a578260.mp3",
     "static/media/18. Никита на приёме у психоаналитика.mp3": "/ray-vs-dudka/static/media/18. Никита на приёме у психоаналитика.e7809892c8d70422cf5d.mp3",
     "static/media/17. НРЖ.mp3": "/ray-vs-dudka/static/media/17. НРЖ.509c954efe32f4ef9b8c.mp3",
     "static/media/20. Переговоры Рая и Куца.mp3": "/ray-vs-dudka/static/media/20. Переговоры Рая и Куца.43deb980cf66773a0e18.mp3",
@@ -32,7 +33,9 @@
     "static/media/13. Разговор Никиты со своим вторым Я.mp3": "/ray-vs-dudka/static/media/13. Разговор Никиты со своим вторым Я.06b7fd5f11281d78a5e3.mp3",
     "static/media/15. Раскаяние Рая.mp3": "/ray-vs-dudka/static/media/15. Раскаяние Рая.a5a9596a5cb0fc9bf96f.mp3",
     "static/media/7. Наемник-Дудка.mp3": "/ray-vs-dudka/static/media/7. Наемник-Дудка.efb288ba69399ff9aa5d.mp3",
+    "static/media/1. Заключительный разговор Рая и Дудки.mp3": "/ray-vs-dudka/static/media/1. Заключительный разговор Рая и Дудки.0a7c6aa795ab9ff3b2bd.mp3",
     "static/media/26. Хорошее настроение Никиты после победы над Костей.mp3": "/ray-vs-dudka/static/media/26. Хорошее настроение Никиты после победы над Костей.63386425e7622945eddc.mp3",
+    "static/media/main-window-photo.jpg": "/ray-vs-dudka/static/media/main-window-photo.384ecca458f48b34def9.jpg",
     "static/media/25. Как Никита придумывает правила игры в фифу....mp3": "/ray-vs-dudka/static/media/25. Как Никита придумывает правила игры в фифу....f4b5db0c9d5cd3ecf631.mp3",
     "static/media/VOAaPUxR0OQ.jpg": "/ray-vs-dudka/static/media/VOAaPUxR0OQ.b2ee1991fb6b25796b31.jpg",
     "static/media/GoldenBallPc.jpg": "/ray-vs-dudka/static/media/GoldenBallPc.95802cd3a750150472a4.jpg",
@@ -147,12 +150,12 @@
     "static/media/AppStoreIcon.png": "/ray-vs-dudka/static/media/AppStoreIcon.7163773c87d21d6a510c.png",
     "static/media/GooglePlayIcon.png": "/ray-vs-dudka/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/ray-vs-dudka/index.html",
-    "main.c354a79f.css.map": "/ray-vs-dudka/static/css/main.c354a79f.css.map",
-    "main.3f493025.js.map": "/ray-vs-dudka/static/js/main.3f493025.js.map",
+    "main.422cd7cd.css.map": "/ray-vs-dudka/static/css/main.422cd7cd.css.map",
+    "main.7cdd2975.js.map": "/ray-vs-dudka/static/js/main.7cdd2975.js.map",
     "787.28cb0dcd.chunk.js.map": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c354a79f.css",
-    "static/js/main.3f493025.js"
+    "static/css/main.422cd7cd.css",
+    "static/js/main.7cdd2975.js"
   ]
 }
