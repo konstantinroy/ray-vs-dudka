@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ray-vs-dudka/static/css/main.e3a094f3.css",
-    "main.js": "/ray-vs-dudka/static/js/main.5137dfbc.js",
+    "main.css": "/ray-vs-dudka/static/css/main.266acb0f.css",
+    "main.js": "/ray-vs-dudka/static/js/main.7d20ce8a.js",
     "static/js/787.28cb0dcd.chunk.js": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js",
     "static/media/27. no pain no gain.wav": "/ray-vs-dudka/static/media/27. no pain no gain.0fa7720a1d9f14aa1c38.wav",
     "static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.mp3": "/ray-vs-dudka/static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.6605ba018a142a578260.mp3",
@@ -35,7 +35,6 @@
     "static/media/7. Наемник-Дудка.mp3": "/ray-vs-dudka/static/media/7. Наемник-Дудка.efb288ba69399ff9aa5d.mp3",
     "static/media/1. Заключительный разговор Рая и Дудки.mp3": "/ray-vs-dudka/static/media/1. Заключительный разговор Рая и Дудки.0a7c6aa795ab9ff3b2bd.mp3",
     "static/media/26. Хорошее настроение Никиты после победы над Костей.mp3": "/ray-vs-dudka/static/media/26. Хорошее настроение Никиты после победы над Костей.63386425e7622945eddc.mp3",
-    "static/media/main-window-photo.jpg": "/ray-vs-dudka/static/media/main-window-photo.384ecca458f48b34def9.jpg",
     "static/media/25. Как Никита придумывает правила игры в фифу....mp3": "/ray-vs-dudka/static/media/25. Как Никита придумывает правила игры в фифу....f4b5db0c9d5cd3ecf631.mp3",
     "static/media/VOAaPUxR0OQ.jpg": "/ray-vs-dudka/static/media/VOAaPUxR0OQ.b2ee1991fb6b25796b31.jpg",
     "static/media/GoldenBallPc.jpg": "/ray-vs-dudka/static/media/GoldenBallPc.95802cd3a750150472a4.jpg",
@@ -44,6 +43,7 @@
     "static/media/photo_2022-11-29_23-27-21.jpg": "/ray-vs-dudka/static/media/photo_2022-11-29_23-27-21.8f810d2721303c5e42ac.jpg",
     "static/media/pc-photo.jpg": "/ray-vs-dudka/static/media/pc-photo.1726e33effa19a84c17f.jpg",
     "static/media/JnFj-qp1JQQ.jpg": "/ray-vs-dudka/static/media/JnFj-qp1JQQ.dcdc2fd23eb30dc77f78.jpg",
+    "static/media/main-window-photo.jpg": "/ray-vs-dudka/static/media/main-window-photo.a5a503f34fde4fbc616b.jpg",
     "static/media/IoYQKF9r6DU.jpg": "/ray-vs-dudka/static/media/IoYQKF9r6DU.7a2525df77a1363dc02e.jpg",
     "static/media/KnWnV8z63u0.jpg": "/ray-vs-dudka/static/media/KnWnV8z63u0.0f9d8130288706f6d70a.jpg",
     "static/media/QKZ37MH2TiA.jpg": "/ray-vs-dudka/static/media/QKZ37MH2TiA.5457952942e37d242749.jpg",
@@ -150,12 +150,12 @@
     "static/media/AppStoreIcon.png": "/ray-vs-dudka/static/media/AppStoreIcon.7163773c87d21d6a510c.png",
     "static/media/GooglePlayIcon.png": "/ray-vs-dudka/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/ray-vs-dudka/index.html",
-    "main.e3a094f3.css.map": "/ray-vs-dudka/static/css/main.e3a094f3.css.map",
-    "main.5137dfbc.js.map": "/ray-vs-dudka/static/js/main.5137dfbc.js.map",
+    "main.266acb0f.css.map": "/ray-vs-dudka/static/css/main.266acb0f.css.map",
+    "main.7d20ce8a.js.map": "/ray-vs-dudka/static/js/main.7d20ce8a.js.map",
     "787.28cb0dcd.chunk.js.map": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a094f3.css",
-    "static/js/main.5137dfbc.js"
+    "static/css/main.266acb0f.css",
+    "static/js/main.7d20ce8a.js"
   ]
 }
