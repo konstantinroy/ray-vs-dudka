@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ray-vs-dudka/static/css/main.266acb0f.css",
-    "main.js": "/ray-vs-dudka/static/js/main.7d20ce8a.js",
+    "main.css": "/ray-vs-dudka/static/css/main.961922f1.css",
+    "main.js": "/ray-vs-dudka/static/js/main.4f25b25c.js",
     "static/js/787.28cb0dcd.chunk.js": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js",
     "static/media/27. no pain no gain.wav": "/ray-vs-dudka/static/media/27. no pain no gain.0fa7720a1d9f14aa1c38.wav",
     "static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.mp3": "/ray-vs-dudka/static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.6605ba018a142a578260.mp3",
@@ -150,12 +150,12 @@
     "static/media/AppStoreIcon.png": "/ray-vs-dudka/static/media/AppStoreIcon.7163773c87d21d6a510c.png",
     "static/media/GooglePlayIcon.png": "/ray-vs-dudka/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/ray-vs-dudka/index.html",
-    "main.266acb0f.css.map": "/ray-vs-dudka/static/css/main.266acb0f.css.map",
-    "main.7d20ce8a.js.map": "/ray-vs-dudka/static/js/main.7d20ce8a.js.map",
+    "main.961922f1.css.map": "/ray-vs-dudka/static/css/main.961922f1.css.map",
+    "main.4f25b25c.js.map": "/ray-vs-dudka/static/js/main.4f25b25c.js.map",
     "787.28cb0dcd.chunk.js.map": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.266acb0f.css",
-    "static/js/main.7d20ce8a.js"
+    "static/css/main.961922f1.css",
+    "static/js/main.4f25b25c.js"
   ]
 }
