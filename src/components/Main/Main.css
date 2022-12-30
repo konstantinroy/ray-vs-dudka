@@ -24,8 +24,8 @@
 
 .exit-btn {
   position: absolute;
-  top: 32vw;
-  right: -1vw;
+  top: 0vw;
+  right: 0vw;
   border: none;
   background-color: rgb(0, 0, 0, 0);
   color: #fff;
