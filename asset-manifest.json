@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ray-vs-dudka/static/css/main.12b2fbec.css",
-    "main.js": "/ray-vs-dudka/static/js/main.e0345a51.js",
+    "main.css": "/ray-vs-dudka/static/css/main.e52a7535.css",
+    "main.js": "/ray-vs-dudka/static/js/main.e1613709.js",
     "static/js/787.28cb0dcd.chunk.js": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js",
     "static/media/27. no pain no gain.wav": "/ray-vs-dudka/static/media/27. no pain no gain.0fa7720a1d9f14aa1c38.wav",
     "static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.mp3": "/ray-vs-dudka/static/media/34. Документальный фильм 'Константин Рай против Никиты Дудки'.6605ba018a142a578260.mp3",
@@ -92,6 +92,7 @@
     "static/media/photo_2022-11-03_14-19-05.jpg": "/ray-vs-dudka/static/media/photo_2022-11-03_14-19-05.769382e14baec961f9fd.jpg",
     "static/media/photo_2022-11-29_23-27-31.jpg": "/ray-vs-dudka/static/media/photo_2022-11-29_23-27-31.24a384c5794f7e3de511.jpg",
     "static/media/ldrYh2_2-oc.jpg": "/ray-vs-dudka/static/media/ldrYh2_2-oc.24d3f1051e27d74656fc.jpg",
+    "static/media/preSeasonImg.jpg": "/ray-vs-dudka/static/media/preSeasonImg.3c9a6799430c7d7e4a88.jpg",
     "static/media/QuotesMobPhoto.jpg": "/ray-vs-dudka/static/media/QuotesMobPhoto.3b6df90c06dcc80390ac.jpg",
     "static/media/w_YwzsZ77Qc.jpg": "/ray-vs-dudka/static/media/w_YwzsZ77Qc.74840ef2f8fc780f8bcf.jpg",
     "static/media/ucxspbV1d5Y.jpg": "/ray-vs-dudka/static/media/ucxspbV1d5Y.3b183439f841a37a33b1.jpg",
@@ -150,12 +151,12 @@
     "static/media/AppStoreIcon.png": "/ray-vs-dudka/static/media/AppStoreIcon.7163773c87d21d6a510c.png",
     "static/media/GooglePlayIcon.png": "/ray-vs-dudka/static/media/GooglePlayIcon.2d22f2c6c65c6affef88.png",
     "index.html": "/ray-vs-dudka/index.html",
-    "main.12b2fbec.css.map": "/ray-vs-dudka/static/css/main.12b2fbec.css.map",
-    "main.e0345a51.js.map": "/ray-vs-dudka/static/js/main.e0345a51.js.map",
+    "main.e52a7535.css.map": "/ray-vs-dudka/static/css/main.e52a7535.css.map",
+    "main.e1613709.js.map": "/ray-vs-dudka/static/js/main.e1613709.js.map",
     "787.28cb0dcd.chunk.js.map": "/ray-vs-dudka/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12b2fbec.css",
-    "static/js/main.e0345a51.js"
+    "static/css/main.e52a7535.css",
+    "static/js/main.e1613709.js"
   ]
 }
