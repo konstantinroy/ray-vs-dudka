@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import "./Navbar.scss";
+import FifaIcon from '../../../assets/img/Fifa.png'
 
 const Navbar = () => {
   // to change burger classes
@@ -29,7 +30,7 @@ const Navbar = () => {
         <div className="wrapper">
           <ul className="PClinks">
           <Link to="/results">Результаты</Link>
-          <Link to="/locations">Места проведения</Link>
+          <Link to="/locations">Локации</Link>
           <Link to="/audio">Аудио</Link>
           <Link to="/photo">Фоточки</Link>
           <Link to="/quotes">Цитаты</Link>
@@ -51,8 +52,9 @@ const Navbar = () => {
           <div className="logo__block"><Link to="/main">RayVsDudka</Link></div>
         </nav>
         <div className={menu_class}>
+        <div className="fifa-icon"><img src={FifaIcon} alt=""></img></div>
         <Link to="/results">Результаты</Link>
-        <Link to="/locations">Места проведения</Link>
+        <Link to="/locations">Локации</Link>
         <Link to="/audio">Аудио</Link>
         <Link to="/photo">Фоточки</Link>
         <Link to="/quotes">Цитаты</Link>

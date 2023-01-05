@@ -1,304 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&display=swap');
+@import '../../../index.scss';
+
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .pcMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 4vw;
+
+  .logo__block {
+    font-family: "Quantico", sans-serif;
+    font-size: 3vw;
+  }
+
+  .logo__block a {
+    color: rgb(255, 255, 255);
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #dbdbdb;
-    padding: 0 4vw;
-    background-color: #000000;
+    margin: 1vw 0;
+  }
 
-    .logo__block {
-        font-family: 'Quantico', sans-serif;
-        font-size: 3vw;
-    }
+  .PClinks {
+    display: flex;
+    list-style-type: none;
+    padding-right: 2vw;
+    border-right: 1px solid rgb(255, 255, 255);
+  }
 
-    .logo__block a {
-        color: rgb(255, 255, 255);
-        z-index: 1000;
-        cursor: pointer;
-    }
+  .PClinks a {
+    display: block;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    padding: 0 1.2vw;
+    text-decoration: none;
+  }
 
-    .wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 1vw 0;
-    }
-
-    .PClinks {
-        display: flex;
-        list-style-type: none;
-        padding-right: 2vw;
-        border-right: 1px solid rgb(255, 255, 255);
-    }
-
-    .PClinks a {
-        display: block;
-        font-size: 1.3vw;
-        color: rgb(255, 255, 255);
-        padding: 0 1.2vw;
-        text-decoration: none;
-    }
-
-    .PClinks a:hover {
-        text-decoration: underline;
-    }
-
+  .PClinks a:hover {
+    text-decoration: underline;
+  }
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding-left: 2vw;
+
+  > button {
+    font-size: 1.4vw;
     cursor: pointer;
     border: none;
     outline: none;
-    padding-left: 2vw;
+    background: transparent;
+    border: 1px solid #dbdbdb;
+    padding: 0.6vw;
+  }
 
-    >button {
-        font-size: 1.4vw;
-        cursor: pointer;
-        border: none;
-        outline: none;
-        background: transparent;
-        border: 1px solid rgb(117, 117, 117);
-        padding: 0.6vw;
-    }
+  > button:hover {
+    background-color: rgb(49, 49, 49);
+  }
 
-    >button:hover {
-        background-color: rgb(49, 49, 49);
-    }
+  .login-button {
+    padding: 0.1vw 0.3vw;
+    color: #fff;
+  }
 
-    .login-button {
-        padding: 0.1vw 0.3vw;
-        color: #fff;
-    }
-
-    .sign-up-button {
-        margin-left: 0.8vw;
-        color: #fff;
-    }
+  .sign-up-button {
+    margin-left: 0.8vw;
+    color: #fff;
+  }
 }
 
 /* ---------------- Navbar and burger menu ------------------ */
 .mobileMenu {
-    display: none;
-    width: 100%;
-    height: 10vh;
-    position: fixed;
-    z-index: 99;
-    // pointer-events: none;
+  display: none;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  z-index: 99;
+  // pointer-events: none;
 }
 
 nav {
-    width: 100%;
-    height: 8vw;
-    background-color: #000000;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 1em;
-    border-bottom: 1px solid #a1a1a1;
+  background-image: $backgroundColor;
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+  // border-bottom: 1px solid #a1a1a1;
 }
 
 .burger-menu {
-    height: 100%;
-    width: 6vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
+  height: 100%;
+  width: 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .burger-bar {
-    width: 7vw;
-    height: 0.7vw;
-    background-color: #ffffff;
-    border-radius: 0.5em;
+  width: 7vw;
+  height: 0.7vw;
+  background-color: #ffffff;
+  border-radius: 0.5em;
 }
 
 .menu {
-    width: 50%;
-    height: 100vh;
-    background-color: #000000;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    transition: ease-out 0.2s;
-    display: flex;
-    flex-direction: column;
-    padding-top: 10vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transition: ease-out 0.2s;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-image: $backgroundColor;
+  text-align: center;
+  font-family: 'Alumni Sans', sans-serif;
 }
 
 .menu a {
-    color: #ffffff;
-    margin-top: 3vw;
-    font-size: 4vw;
-    border-bottom: 1px solid rgb(255, 255, 255);
+  margin-top: 3vw;
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: #66515c;
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+.fifa-icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifa-icon img {
+  width: 80%;
 }
 
 .registrButtons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    top: 18vw;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 18vw;
+  width: 100%;
 }
 
 .registrButtons a {
-    font-size: 3vw;
-    border: none;
+  font-size: 3vw;
+  border: none;
 }
 
 /* ------------- sliding menu ------------------ */
 .hidden {
-    // display: none;
-    opacity: 0;
-    right: 100vw;
+  // display: none;
+  opacity: 0;
+  right: 100vw;
 }
 
 .visible {
-    // display: inherit;
-    opacity: 0.9;
-    transition: ease-out 0.2s;
-    right: 50vw;
+  // display: inherit;
+  opacity: 1;
+  transition: ease-out 0.2s;
+  right: 50vw;
+  box-shadow: 1px 1px 1px #00000029;
 }
 
 /* ----- animations--------- */
 /* clicked */
 .burger-bar.clicked:nth-child(1) {
-    transform: rotate(45deg) translate(0.1vw, 2.1vw);
-    transition: ease-out 0.5s;
+  transform: rotate(45deg) translate(0.1vw, 2.1vw);
+  transition: ease-out 0.5s;
 }
 
 .burger-bar.clicked:nth-child(2) {
-    transform: scale(0.1);
-    transition: ease-out 0.5s;
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
 }
 
 .burger-bar.clicked:nth-child(3) {
-    transform: rotate(135deg) translate(0vw, 2.4vw);
-    transition: ease-out 0.5s;
+  transform: rotate(135deg) translate(0vw, 2.4vw);
+  transition: ease-out 0.5s;
 }
 
 /* unclicked */
 .burger-bar.unclicked {
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
 
 @media only screen and (max-width: 760px) {
-    .logo__block {
-        font-family: 'Quantico', sans-serif;
-        font-size: 5vw;
-        margin-left: 2vw;
-    }
-    .logo__block a {
-        color: rgb(255, 255, 255);
-    }
-    .main-photo-block img {
-        width: 120%;
-    }
+  .logo__block {
+    font-family: "Quantico", sans-serif;
+    font-size: 5vw;
+    margin-left: 2vw;
+  }
+  .logo__block a {
+    color: rgb(255, 255, 255);
+  }
+  .main-photo-block img {
+    width: 120%;
+  }
 
-    .pcMenu {
-        display: none;
-    }
+  .pcMenu {
+    display: none;
+  }
 
-    nav {
-        padding: 2vw;
-    }
+  nav {
+    padding: 2vw;
+  }
 
-    .mobileMenu {
-        display: block;
-    }
+  .mobileMenu {
+    display: block;
+  }
 
-    .burger-bar {
-        width: 6vw;
-        height: 0.6vw;
-    }
+  .burger-bar {
+    width: 6vw;
+    height: 0.6vw;
+  }
 
-    .registrButtons {
-        top: 24vw;
-    }
+  .registrButtons {
+    top: 24vw;
+  }
 
-    .registrButtons a {
-        font-size: 2vw;
-    }
+  .registrButtons a {
+    font-size: 2vw;
+  }
 
-    .burger-bar.clicked:nth-child(1) {
-        transform: rotate(45deg) translate(0.1vw, 2.1vw);
-        transition: ease-out 0.5s;
-    }
+  .burger-bar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(0.1vw, 2.1vw);
+    transition: ease-out 0.5s;
+  }
 
-    .burger-bar.clicked:nth-child(3) {
-        transform: rotate(135deg) translate(0vw, 2.4vw);
-        transition: ease-out 0.5s;
-    }
+  .burger-bar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(0vw, 2.4vw);
+    transition: ease-out 0.5s;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    .pcMenu {
-        height: 12vw;
-    }
+  .pcMenu {
+    height: 12vw;
+  }
 
-    nav {
-        height: 14vw;
-        padding: 4vw;
-    }
+  nav {
+    height: 14vw;
+    padding: 4vw;
+  }
 
-    .logo__block {
-        font-size: 7vw;
-        margin-left: 2vw;
-    }
+  .logo__block {
+    font-size: 7vw;
+    margin-left: 2vw;
+  }
 
-    .logo__block a {
-        color: rgb(255, 255, 255);
-    }
+  .logo__block a {
+    color: rgb(255, 255, 255);
+  }
 
-    .burger-menu {
-        width: 7vw;
-    }
+  .burger-menu {
+    width: 7vw;
+  }
 
-    .menu {
-        width: 90%;
-        padding-top: 20vw;
-        padding-left: 10vw;
-        padding-right: 15vw;
-    }
+  .menu {
+    width: 90%;
+    padding-top: 15vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
 
-    .menu a {
-        margin-top: 6vw;
-        font-size: 7vw;
-    }
+  .menu a {
+    margin-top: 2vw;
+    font-size: 10vw;
+  }
 
-    .registrButtons {
-        top: 35vw;
-    }
+  .registrButtons {
+    top: 35vw;
+  }
 
-    .registrButtons a {
-        font-size: 3vw;
-    }
+  .registrButtons a {
+    font-size: 3vw;
+  }
 
-    .visible {
-        right: 10vw;
-    }
+  .visible {
+    right: 10vw;
+  }
 
-    .burger-bar.clicked:nth-child(1) {
-        transform: rotate(45deg) translate(2vw, 1.4vw);
-        transition: ease-out 0.5s;
-    }
+  .burger-bar.clicked:nth-child(1) {
+    transform: rotate(45deg) translate(2vw, 1.4vw);
+    transition: ease-out 0.5s;
+  }
 
-    .burger-bar.clicked:nth-child(3) {
-        transform: rotate(135deg) translate(-2vw, 1.9vw);
-        transition: ease-out 0.5s;
-    }
+  .burger-bar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-2vw, 1.9vw);
+    transition: ease-out 0.5s;
+  }
 }

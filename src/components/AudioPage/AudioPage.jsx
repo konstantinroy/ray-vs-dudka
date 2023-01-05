@@ -5,7 +5,8 @@ import BackToTopButton from './../CommonComponents/BackToTopButton/BackToTopButt
 import AudiosArrayData from "./AudiosArray";
 import AudioList from "./AudioList";
 import "./AudioPage.scss";
-import AudioPagePhoto from "../../assets/img/AudioPagePhoto.jpg";
+import CasseteAnimation from './CasseteAnimation/CasseteAnimation.js'
+// import AudioPagePhoto from "../../assets/img/AudioPagePhoto.jpg";
 import { useCallback } from "react";
 
 const filterAudios = (searchText, listOfAudios) => {
@@ -63,7 +64,8 @@ function AudioPage() {
       <div className="content">
         <div className="audioHeading">
           <div className="pagePhotoBlock">
-            <img className="audioPagePhoto" src={AudioPagePhoto} alt=""></img>
+          <CasseteAnimation />
+            {/* <img className="audioPagePhoto" src={AudioPagePhoto} alt=""></img> */}
           </div>
           <div className="headingText">
             <h1 className="heading">Все аудио в одном месте</h1>

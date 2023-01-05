@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Main/Header/Navbar";
 import Footer from "../Main/Footer/Footer";
 import BackToTopButton from './../CommonComponents/BackToTopButton/BackToTopButton.js'
-import "./PhotosPage.scss";
+import styles from "./PhotosPage.module.scss";
 import PhotoPagePhoto from "../../assets/img/PhotoPagePhoto.jpg";
 import Photo1 from './photo-img/ZIYtf494hZQ.jpg'
 import Photo2 from './photo-img/W8QWi2EyVyE.jpg'
@@ -87,388 +87,388 @@ function PhotosPage() {
   return (
     <div>
       <Navbar />
-      <div className="content">
-        <div className="photoHeading">
-          <div className="pagePhotoBlock">
-            <img className="photoPagePhoto" src={PhotoPagePhoto} alt=""></img>
+      <div className={styles.content}>
+        <div className={styles.photoHeading}>
+          <div className={styles.pagePhotoBlock}>
+            <img className={styles.photoPagePhoto} src={PhotoPagePhoto} alt=""></img>
           </div>
-          <div className="headingText">
-            <h1 className="heading">Лучшие фоточки за всё время</h1>
-          </div>
-        </div>
-
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo1} alt="" /></div>
-          <div className="photo-box"><img src={Photo2} alt="" /></div>
+          <div className={styles.headingText}>
+            <h1 className={styles.heading}>Лучшие фоточки за всё время</h1>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo1} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo2} alt="" /></div>
+          </div>
+        </div>
+
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
           <img src={Photo3} 
-          className="oneImg"
+          className={styles.oneImg}
           alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo4} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo4} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo5} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo5} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo6} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo6} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo7} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo7} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo8} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo8} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo9} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo9} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo10} alt="" /></div>
-          <div className="photo-box"><img src={Photo11} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo10} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo11} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo12} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo12} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo13} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo13} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo14} alt="" /></div>
-          <div className="photo-box"><img src={Photo15} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo14} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo15} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo16} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo16} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo17} alt="" /></div>
-          <div className="photo-box"><img src={Photo18} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo17} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo18} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo19} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo19} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo20} alt="" /></div>
-          <div className="photo-box"><img src={Photo21} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo20} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo21} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo22} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo22} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo23} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo23} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo24} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo24} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo25} alt="" /></div>
-          <div className="photo-box"><img src={Photo26} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo25} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo26} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo27} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo27} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo28} alt="" /></div>
-          <div className="photo-box"><img src={Photo29} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo28} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo29} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo30} alt="" /></div>
-          <div className="photo-box"><img src={Photo31} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo30} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo31} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo32} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo32} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo33} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo33} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo34} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo34} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo35} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo35} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo36} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo36} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo37} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo37} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo38} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo38} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo39} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo39} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo40} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo40} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo41} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo41} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo42} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo42} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo43} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo43} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo44} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo44} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo45} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo45} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo46} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo46} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo49} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo49} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo50} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo50} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo51} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo51} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo52} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo52} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo53} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo53} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo54} alt="" /></div>
-          <div className="photo-box"><img src={Photo55} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo54} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo55} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo56} alt="" /></div>
-          <div className="photo-box"><img src={Photo57} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo56} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo57} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo58} alt="" /></div>
-          <div className="photo-box"><img src={Photo59} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo58} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo59} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo60} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo60} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo61} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo61} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo62} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo62} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo63} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo63} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo64} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo64} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo65} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo65} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo66} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo66} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo67} alt="" /></div>
-          <div className="photo-box"><img src={Photo68} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo67} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo68} alt="" /></div>
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo69} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo69} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo70} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo70} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo73} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo73} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo74} className="oneImg" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo74} className={styles.oneImg} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <img src={Photo75} className="oneImg2" alt="" />
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <img src={Photo75} className={styles.oneImg2} alt="" />
           </div>
         </div>
 
-        <div className="photoBlock">
-          <div className="allPhoto-box">
-          <div className="photo-box"><img src={Photo76} alt="" /></div>
-          <div className="photo-box"><img src={Photo77} alt="" /></div>
+        <div className={styles.photoBlock}>
+          <div className={styles['allPhoto-box']}>
+          <div className={styles['photo-box']}><img src={Photo76} alt="" /></div>
+          <div className={styles['photo-box']}><img src={Photo77} alt="" /></div>
           </div>
         </div>
 

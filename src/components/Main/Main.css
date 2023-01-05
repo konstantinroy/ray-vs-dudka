@@ -6,7 +6,7 @@
   height: 100vh;
   position: fixed;
   z-index: 100;
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.801);
 }
 
 .main-window.none {
@@ -22,17 +22,33 @@
   margin: auto;
 }
 
-.exit-btn {
+.hint {
+  position: absolute;
+  top: 3vw;
+  right: 3vw;
+  z-index: 1000;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 6vw;
+  font-family: fantasy;
+}
+
+.exit-btn.block {
+  display: block;
   position: absolute;
   top: 0vw;
   right: 0vw;
   border: none;
-  background-color: rgb(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
   opacity: 0.7;
   font-size: 10vw;
   cursor: pointer;
   z-index: 1000;
+}
+
+.exit-btn.none {
+  display: none;
 }
 
 .main-window_text {

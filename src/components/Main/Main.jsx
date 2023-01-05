@@ -14,31 +14,45 @@ import Footer from "./Footer/Footer.jsx";
 function Main() {
   const [window, setWindow] = React.useState(true);
 
+  const [counter, setCounter] = React.useState(5);
+
+  React.useEffect(() => {
+    const timer =
+      counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+    return () => clearInterval(timer);
+  }, [counter]);
+
   const exitBtn = () => {
     setWindow(!window);
   };
 
-  const componentWillMount = () => {
-    document.body.style.overflow = "hidden";
-  };
-  const componentWillUnmount = () => {
-    document.body.style.overflow = "visible";
-  };
+  // const componentWillMount = () => {
+  //   document.body.style.overflow = "hidden";
+  // };
+  // const componentWillUnmount = () => {
+  //   document.body.style.overflow = "visible";
+  // };
 
-  if (window) {
-    componentWillMount();
-  }
-  if (!window) {
-    componentWillUnmount();
-  }
+  // if (window) {
+  //   componentWillMount();
+  // }
+  // if (!window) {
+  //   componentWillUnmount();
+  // }
 
   return (
     <div>
       <div className={window ? "main-window block" : "main-window none"}>
         <img src={MainWindowPhoto} alt="" />
-        <button className="exit-btn" onClick={exitBtn}>
-          ×
-        </button>
+        {counter > 0 ? (
+          <div className="hint">{counter}</div>
+        ) : (
+          <div>
+            <button className="exit-btn block" onClick={exitBtn}>
+              ×
+            </button>
+          </div>
+        )}
         <div className="main-window_text">
           <div className="photo-text">
             <p>Константин Рай победитель сезона 2022 года!!!</p>

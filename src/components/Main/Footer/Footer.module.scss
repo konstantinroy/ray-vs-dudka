@@ -1,6 +1,5 @@
 .footerBlockStyles {
   padding: 7vw 7vw 3vw 7vw;
-  background-color: rgb(0, 0, 0);
   border-top: 2px solid #a1a1a1;
 }
 
@@ -38,6 +37,7 @@
 .linksPC {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .footerCapText {
@@ -71,7 +71,7 @@
 .linksBlockMOB {
   display: flex;
   flex-direction: column;
-  border: 1px solid #363636;
+  border: 1px solid #ffffff52;
   border-radius: 5px;
   padding: 3vw 4vw;
   margin-bottom: 3vw;
@@ -107,10 +107,23 @@
   display: flex;
   flex-direction: column;
   margin-top: 2vw;
+  padding: 0;
 }
 
 .linksMOB li {
   margin-bottom: 0.7vw;
+}
+
+@media only screen and (max-width: 760px) {
+  .linksPCBlock {
+    font-size: 2vw;
+}
+  .linksPCBlock h1 {
+    font-size: 2.5vw;
+}
+.footerCapText {
+  font-size: 2.6vw;
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -132,7 +145,7 @@
     justify-content: space-between;
     text-align: center;
     padding: 5vw 0;
-    border-bottom: 1px solid #363636;
+    border-bottom: 1px solid #ffffff52;
   }
 
   .icons img {
