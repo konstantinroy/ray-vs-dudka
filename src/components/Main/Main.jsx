@@ -12,21 +12,7 @@ import Quotes from "./Quotes/Quotes.jsx";
 import Footer from "./Footer/Footer.jsx";
 
 function Main() {
-  const [window, setWindow] = React.useState(true);
-
-  const [counter, setCounter] = React.useState(5);
-
-  React.useEffect(() => {
-    const timer =
-      counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
-    return () => clearInterval(timer);
-  }, [counter]);
-
-  const exitBtn = () => {
-    setWindow(!window);
-  };
-
-  // const componentWillMount = () => {
+    // const componentWillMount = () => {
   //   document.body.style.overflow = "hidden";
   // };
   // const componentWillUnmount = () => {
@@ -39,6 +25,19 @@ function Main() {
   // if (!window) {
   //   componentWillUnmount();
   // }
+  const [window, setWindow] = React.useState(true);
+
+  const [counter, setCounter] = React.useState(5);
+
+ React.useEffect(() => {
+    const timer =
+      counter > 0 && setInterval(() => setCounter(counter - 1), 1000);
+    return () => clearInterval(timer);
+  }, [counter]);
+
+  const exitBtn = () => {
+    setWindow(!window);
+  };
 
   return (
     <div>

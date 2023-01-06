@@ -24,13 +24,13 @@
 
 .hint {
   position: absolute;
-  top: 3vw;
-  right: 3vw;
+  top: 1vw;
+  right: 2.5vw;
   z-index: 1000;
   color: #fff;
   opacity: 0.7;
-  font-size: 6vw;
-  font-family: fantasy;
+  font-size: 8vw;
+  font-family: 'Alumni Sans', sans-serif;
 }
 
 .exit-btn.block {
