@@ -36,8 +36,8 @@ const Navbar = () => {
           <Link to="/quotes">Цитаты</Link>
           </ul>
           <div className="buttons">
-            <button className="login-button">ВХОД</button>
-            <button className="sign-up-button">РЕГИСТРАЦИЯ</button>
+          <Link to="/account"><button className="login-button">ВХОД / РЕГИСТРАЦИЯ</button></Link>
+            {/* <button className="sign-up-button">РЕГИСТРАЦИЯ</button> */}
           </div>
         </div>
       </div>

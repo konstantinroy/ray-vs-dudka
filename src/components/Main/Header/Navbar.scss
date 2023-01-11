@@ -68,21 +68,18 @@
     border: 1px solid #dbdbdb;
     padding: 0.6vw;
   }
-
-  > button:hover {
-    background-color: rgb(49, 49, 49);
-  }
-
-  .login-button {
-    padding: 0.1vw 0.3vw;
-    color: #fff;
-  }
-
-  .sign-up-button {
-    margin-left: 0.8vw;
-    color: #fff;
-  }
 }
+  .login-button {
+    background-color: #0000;
+    border: 1px solid #fff;
+    padding: 0.7vw;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: rgba(255, 255, 255, 0.233);
+  }
 
 /* ---------------- Navbar and burger menu ------------------ */
 .mobileMenu {

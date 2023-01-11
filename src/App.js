@@ -7,6 +7,7 @@ import LocationsPage from "../src/components/LocationsPage/LocationsPage.jsx";
 import AudioPage from "../src/components/AudioPage/AudioPage.jsx";
 import PhotoPage from "../src/components/PhotosPage/PhotosPage.jsx";
 import QuotesPage from "../src/components/QuotesPage/QuotesPage.jsx";
+import EnterPage from "../src/components/EnterPage/EnterPage";
 
 const Links = () => {
   return (
@@ -21,6 +22,7 @@ const Links = () => {
         <Route path="/audio" element={<AudioPage />} />
         <Route path="/photo" element={<PhotoPage />} />
         <Route path="/quotes" element={<QuotesPage />} />
+        <Route path="/account" element={<EnterPage />} />
       </Routes>
       </ScrollToTop>
   )
